@@ -59,8 +59,9 @@ categories**. Full program-by-program table: **[GM-MAP.md](GM-MAP.md)**.
 
 ## Install
 
-Download **[`dist/stage-keys-1.0.0.streamDeckIconPack`](dist/)** and
-double-click it — the pack installs into Stream Deck's Icon Library.
+Download **[`dist/com.beennnn.stagekeys.streamDeckIconPack`](dist/)** and
+double-click it — the pack installs into Stream Deck's Icon Library, with
+per-icon names and searchable tags.
 
 ## Rebuild from source
 
@@ -71,17 +72,21 @@ Icons are authored as parametric SVGs in [`src/`](src/) and rendered to
 ```sh
 # with the sdicons toolkit cloned alongside this repo:
 bin/build.sh
-# → regenerates icons/, icons.json, preview and dist/*.streamDeckIconPack
+# → regenerates icons/, icons.json and a submit-ready
+#   dist/com.beennnn.stagekeys.streamDeckIconPack
 ```
 
-Names and tags come from [`tags.json`](tags.json); the pack metadata is in
+Names and tags come from [`tags.json`](tags.json); pack metadata is in
 [`manifest.json`](manifest.json).
 
 ## Publishing to the Elgato Marketplace
 
-The official packager is Elgato's **[Icon Pack Man](https://iconpackman.elgato.com/)**
-(point it at this repo folder → `.streamDeckIconPack`); submission goes through
-the **[Maker Console](https://console.elgato.com/)** after review.
+`bin/build.sh` produces a **submit-ready** `.streamDeckIconPack` (the correct
+`com.beennnn.stagekeys.sdIconPack/` container) — double-click to install, or
+upload straight to the **[Maker Console](https://console.elgato.com/)** after
+review. Elgato's [Icon Pack Man](https://iconpackman.elgato.com/) web tool is
+*optional* (and drops icon names/tags on import — `sdicons repair` fixes its
+exports). Full process: [sdicons publishing docs](https://github.com/Beennnn/stream-deck-icons/blob/main/docs/publishing.md).
 
 ## License
 

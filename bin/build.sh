@@ -27,5 +27,7 @@ else
 fi
 
 # The repo root IS the pack folder (manifest.json + icons/ + icons.json here).
-"$SD" build "$ROOT/src" "$ROOT" --out-dir "$ROOT/dist"
-echo "Built. Point Icon Pack Man at this folder, or install dist/*.streamDeckIconPack."
+# --id sets the reverse-domain pack identity (the <id>.sdIconPack/ wrapper).
+"$SD" build "$ROOT/src" "$ROOT" --out-dir "$ROOT/dist" --id com.beennnn.stagekeys
+echo "Built dist/com.beennnn.stagekeys.streamDeckIconPack — submit-ready"
+echo "(double-click to install, or upload to console.elgato.com)."
