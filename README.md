@@ -83,7 +83,7 @@ Names and tags come from [`tags.json`](tags.json); pack metadata is in
 
 `bin/build.sh` produces a **submit-ready** `.streamDeckIconPack` (the correct
 `com.beennnn.stagekeys.sdIconPack/` container) — double-click to install, or
-upload straight to the **[Maker Console](https://console.elgato.com/)** after
+upload straight to the **[Maker Console](https://maker.elgato.com/)** after
 review. Elgato's [Icon Pack Man](https://iconpackman.elgato.com/) web tool is
 *optional* (and drops icon names/tags on import — `sdicons repair` fixes its
 exports). The Marketplace listing media (thumbnail, icon previews, gallery) is
