@@ -1,14 +1,15 @@
 # TASKS — streamdeck-stage-keys
 
-## Publish to the Elgato Marketplace
-- ☐ Verify install: double-click dist/com.beennnn.stagekeys.streamDeckIconPack → "Music Instruments for Stage Keys" shows in Stream Deck with names + tags
-- ☐ Submit through Maker Console (console.elgato.com) — CC-BY-4.0, 3 previews in previews/, follow branding guidelines. Needs Benoit's Elgato login.
+## Status: SUBMITTED — pending Elgato review
+- ✅ Submitted to Maker Console (maker.elgato.com), status "Pending review · 1"
+- ✅ Listing description includes the MIDI plugins (free Midi Button by Tom Kelly + paid Trevligaspel)
+- ✅ Auto-publish after approval is ON → goes live on Marketplace once approved
+- ☐ Watch for the review outcome; if changes are requested, edit on the product page and resubmit
 
-## Optional polish
-- 🤔 Per-icon polish if wanted: grand piano a touch dark; oboe/clarinet & violin/viola/cello read similar (expected within a family); gunshot vs orchestra-hit are both bursts
+## Optional polish (later versions)
+- 🤔 Per-icon polish: grand piano a touch dark; oboe/clarinet & violin/viola/cello read similar (expected within a family)
 - 🤔 Extend further: mellotron variants, handpan, turntable/DJ
 
 ## Build
-- `bin/build.sh` (needs the sdicons toolkit) → submit-ready .streamDeckIconPack.
-  Icon Pack Man is NOT required. If you use it anyway, it drops names/tags on
-  import — fix with `sdicons repair <export> --tags tags.json`.
+- `bin/build.sh` → submit-ready .streamDeckIconPack · `bin/maker-media.sh` → console upload assets.
+  Both need the sdicons toolkit (github.com/Beennnn/stream-deck-icons).
