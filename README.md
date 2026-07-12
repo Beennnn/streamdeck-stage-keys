@@ -1,4 +1,6 @@
-# Stage Keys — a Stream Deck icon pack for keyboardists
+# Music Instruments for Stage Keys
+
+> A Stream Deck icon pack for the live keyboardist (short name: **Stage Keys**).
 
 **Full-colour sound-select icons for the live keyboardist.** One Stream Deck
 key per voice, covering the complete **General MIDI / XP** sound set (all 128

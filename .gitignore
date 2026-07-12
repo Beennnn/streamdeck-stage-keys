@@ -4,3 +4,7 @@ contact-sheet.png
 __pycache__/
 *.pyc
 .DS_Store
+
+# Icon Pack Man staging (drag these into iconpackman.elgato.com)
+iconpackman-drop/
+iconpackman-thumbnail.svg
