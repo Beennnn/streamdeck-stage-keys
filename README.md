@@ -86,7 +86,9 @@ Names and tags come from [`tags.json`](tags.json); pack metadata is in
 upload straight to the **[Maker Console](https://console.elgato.com/)** after
 review. Elgato's [Icon Pack Man](https://iconpackman.elgato.com/) web tool is
 *optional* (and drops icon names/tags on import — `sdicons repair` fixes its
-exports). Full process: [sdicons publishing docs](https://github.com/Beennnn/stream-deck-icons/blob/main/docs/publishing.md).
+exports). The Marketplace listing media (thumbnail, icon previews, gallery) is
+generated at the console's exact dimensions by `bin/maker-media.sh`
+(→ `maker-media/`, gitignored). Full process: [sdicons publishing docs](https://github.com/Beennnn/stream-deck-icons/blob/main/docs/publishing.md).
 
 ## License
 

@@ -8,3 +8,6 @@ __pycache__/
 # Icon Pack Man staging (drag these into iconpackman.elgato.com)
 iconpackman-drop/
 iconpackman-thumbnail.svg
+
+# Maker Console upload assets (generated)
+maker-media/
