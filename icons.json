@@ -1,0 +1,823 @@
+[
+    {
+        "path": "accordion.png",
+        "name": "Accordion",
+        "tags": [
+            "gm",
+            "accordion",
+            "reed",
+            "tango"
+        ]
+    },
+    {
+        "path": "agogo.png",
+        "name": "Agogo",
+        "tags": [
+            "gm",
+            "percussive",
+            "agogo",
+            "latin"
+        ]
+    },
+    {
+        "path": "applause.png",
+        "name": "Applause",
+        "tags": [
+            "gm",
+            "sfx",
+            "applause",
+            "crowd"
+        ]
+    },
+    {
+        "path": "arpeggio.png",
+        "name": "Arpeggio / Seq",
+        "tags": [
+            "arpeggio",
+            "sequence",
+            "motion",
+            "arp"
+        ]
+    },
+    {
+        "path": "bagpipe.png",
+        "name": "Bagpipe",
+        "tags": [
+            "gm",
+            "ethnic",
+            "bagpipe",
+            "world"
+        ]
+    },
+    {
+        "path": "banjo.png",
+        "name": "Banjo",
+        "tags": [
+            "gm",
+            "ethnic",
+            "banjo",
+            "folk"
+        ]
+    },
+    {
+        "path": "bass-electric.png",
+        "name": "Electric Bass",
+        "tags": [
+            "gm",
+            "bass",
+            "electric",
+            "fingered",
+            "picked",
+            "slap",
+            "fretless"
+        ]
+    },
+    {
+        "path": "bassoon.png",
+        "name": "Bassoon",
+        "tags": [
+            "gm",
+            "reed",
+            "bassoon"
+        ]
+    },
+    {
+        "path": "bird-tweet.png",
+        "name": "Bird Tweet",
+        "tags": [
+            "gm",
+            "sfx",
+            "bird",
+            "nature"
+        ]
+    },
+    {
+        "path": "blown-bottle.png",
+        "name": "Blown Bottle",
+        "tags": [
+            "gm",
+            "pipe",
+            "blown bottle"
+        ]
+    },
+    {
+        "path": "brass-section.png",
+        "name": "Brass Section",
+        "tags": [
+            "gm",
+            "brass",
+            "section",
+            "synth brass"
+        ]
+    },
+    {
+        "path": "breath-noise.png",
+        "name": "Breath Noise",
+        "tags": [
+            "gm",
+            "sfx",
+            "breath"
+        ]
+    },
+    {
+        "path": "celesta.png",
+        "name": "Celesta",
+        "tags": [
+            "gm",
+            "celesta",
+            "bells",
+            "keys"
+        ]
+    },
+    {
+        "path": "cello.png",
+        "name": "Cello",
+        "tags": [
+            "gm",
+            "strings",
+            "cello"
+        ]
+    },
+    {
+        "path": "choir.png",
+        "name": "Choir / Voice",
+        "tags": [
+            "gm",
+            "voice",
+            "choir",
+            "aahs",
+            "oohs"
+        ]
+    },
+    {
+        "path": "clarinet.png",
+        "name": "Clarinet",
+        "tags": [
+            "gm",
+            "reed",
+            "clarinet"
+        ]
+    },
+    {
+        "path": "clavinet.png",
+        "name": "Clavinet",
+        "tags": [
+            "gm",
+            "clavinet",
+            "funk"
+        ]
+    },
+    {
+        "path": "double-bass.png",
+        "name": "Acoustic / Double Bass",
+        "tags": [
+            "gm",
+            "bass",
+            "double bass",
+            "upright",
+            "contrabass"
+        ]
+    },
+    {
+        "path": "drum-kit.png",
+        "name": "Drum Kit",
+        "tags": [
+            "drums",
+            "percussion",
+            "acoustic kit"
+        ]
+    },
+    {
+        "path": "drum-machine.png",
+        "name": "Drum Machine",
+        "tags": [
+            "drums",
+            "808",
+            "909",
+            "rhythm",
+            "electronic"
+        ]
+    },
+    {
+        "path": "dulcimer.png",
+        "name": "Dulcimer",
+        "tags": [
+            "gm",
+            "dulcimer",
+            "santur",
+            "hammered"
+        ]
+    },
+    {
+        "path": "english-horn.png",
+        "name": "English Horn",
+        "tags": [
+            "gm",
+            "reed",
+            "english horn",
+            "cor anglais"
+        ]
+    },
+    {
+        "path": "ep-fm.png",
+        "name": "FM / DX E.Piano",
+        "tags": [
+            "gm",
+            "electric piano",
+            "fm",
+            "dx7"
+        ]
+    },
+    {
+        "path": "ep-rhodes.png",
+        "name": "Rhodes E.Piano",
+        "tags": [
+            "gm",
+            "electric piano",
+            "rhodes"
+        ]
+    },
+    {
+        "path": "ep-wurlitzer.png",
+        "name": "Wurlitzer E.Piano",
+        "tags": [
+            "electric piano",
+            "wurlitzer"
+        ]
+    },
+    {
+        "path": "flute.png",
+        "name": "Flute",
+        "tags": [
+            "gm",
+            "pipe",
+            "flute"
+        ]
+    },
+    {
+        "path": "french-horn.png",
+        "name": "French Horn",
+        "tags": [
+            "gm",
+            "brass",
+            "french horn"
+        ]
+    },
+    {
+        "path": "glockenspiel.png",
+        "name": "Glockenspiel",
+        "tags": [
+            "gm",
+            "glockenspiel",
+            "mallet",
+            "bells"
+        ]
+    },
+    {
+        "path": "guitar-acoustic.png",
+        "name": "Acoustic Guitar",
+        "tags": [
+            "gm",
+            "guitar",
+            "acoustic",
+            "nylon",
+            "steel"
+        ]
+    },
+    {
+        "path": "guitar-electric.png",
+        "name": "Electric Guitar",
+        "tags": [
+            "gm",
+            "guitar",
+            "electric",
+            "clean",
+            "distortion",
+            "jazz"
+        ]
+    },
+    {
+        "path": "gunshot.png",
+        "name": "Gunshot",
+        "tags": [
+            "gm",
+            "sfx",
+            "gunshot"
+        ]
+    },
+    {
+        "path": "harmonica.png",
+        "name": "Harmonica",
+        "tags": [
+            "gm",
+            "harmonica",
+            "reed",
+            "blues"
+        ]
+    },
+    {
+        "path": "harp.png",
+        "name": "Orchestral Harp",
+        "tags": [
+            "gm",
+            "strings",
+            "harp"
+        ]
+    },
+    {
+        "path": "harpsichord.png",
+        "name": "Harpsichord",
+        "tags": [
+            "gm",
+            "harpsichord",
+            "baroque"
+        ]
+    },
+    {
+        "path": "helicopter.png",
+        "name": "Helicopter",
+        "tags": [
+            "gm",
+            "sfx",
+            "helicopter"
+        ]
+    },
+    {
+        "path": "kalimba.png",
+        "name": "Kalimba",
+        "tags": [
+            "gm",
+            "ethnic",
+            "kalimba",
+            "thumb piano"
+        ]
+    },
+    {
+        "path": "koto.png",
+        "name": "Koto",
+        "tags": [
+            "gm",
+            "ethnic",
+            "koto",
+            "world"
+        ]
+    },
+    {
+        "path": "marimba.png",
+        "name": "Marimba",
+        "tags": [
+            "gm",
+            "marimba",
+            "mallet",
+            "wood"
+        ]
+    },
+    {
+        "path": "mellotron.png",
+        "name": "Mellotron",
+        "tags": [
+            "mellotron",
+            "tape",
+            "strings",
+            "choir",
+            "flutes"
+        ]
+    },
+    {
+        "path": "melodic-tom.png",
+        "name": "Melodic Tom",
+        "tags": [
+            "gm",
+            "percussive",
+            "tom",
+            "drums"
+        ]
+    },
+    {
+        "path": "music-box.png",
+        "name": "Music Box",
+        "tags": [
+            "gm",
+            "music box",
+            "chromatic"
+        ]
+    },
+    {
+        "path": "oboe.png",
+        "name": "Oboe",
+        "tags": [
+            "gm",
+            "reed",
+            "oboe"
+        ]
+    },
+    {
+        "path": "ocarina.png",
+        "name": "Ocarina",
+        "tags": [
+            "gm",
+            "pipe",
+            "ocarina"
+        ]
+    },
+    {
+        "path": "orchestra-hit.png",
+        "name": "Orchestra Hit",
+        "tags": [
+            "gm",
+            "orchestra hit",
+            "stab"
+        ]
+    },
+    {
+        "path": "organ-combo.png",
+        "name": "Combo / Rock Organ",
+        "tags": [
+            "gm",
+            "organ",
+            "vox",
+            "rock"
+        ]
+    },
+    {
+        "path": "organ-pipe.png",
+        "name": "Church / Pipe Organ",
+        "tags": [
+            "gm",
+            "organ",
+            "pipe",
+            "church"
+        ]
+    },
+    {
+        "path": "organ-tonewheel.png",
+        "name": "Drawbar Organ",
+        "tags": [
+            "gm",
+            "organ",
+            "hammond",
+            "drawbars"
+        ]
+    },
+    {
+        "path": "pan-flute.png",
+        "name": "Pan Flute",
+        "tags": [
+            "gm",
+            "pipe",
+            "pan flute"
+        ]
+    },
+    {
+        "path": "piano-grand.png",
+        "name": "Grand Piano",
+        "tags": [
+            "gm",
+            "piano",
+            "keys",
+            "acoustic"
+        ]
+    },
+    {
+        "path": "piano-upright.png",
+        "name": "Upright Piano",
+        "tags": [
+            "gm",
+            "piano",
+            "keys",
+            "honky-tonk"
+        ]
+    },
+    {
+        "path": "piccolo.png",
+        "name": "Piccolo",
+        "tags": [
+            "gm",
+            "pipe",
+            "piccolo"
+        ]
+    },
+    {
+        "path": "recorder.png",
+        "name": "Recorder",
+        "tags": [
+            "gm",
+            "pipe",
+            "recorder"
+        ]
+    },
+    {
+        "path": "reverse-cymbal.png",
+        "name": "Reverse Cymbal",
+        "tags": [
+            "gm",
+            "percussive",
+            "reverse cymbal",
+            "fx"
+        ]
+    },
+    {
+        "path": "sampler.png",
+        "name": "Sampler / MPC",
+        "tags": [
+            "sampler",
+            "mpc",
+            "pads",
+            "hip-hop"
+        ]
+    },
+    {
+        "path": "saxophone.png",
+        "name": "Saxophone",
+        "tags": [
+            "gm",
+            "reed",
+            "sax",
+            "soprano",
+            "alto",
+            "tenor",
+            "baritone"
+        ]
+    },
+    {
+        "path": "seashore.png",
+        "name": "Seashore",
+        "tags": [
+            "gm",
+            "sfx",
+            "seashore",
+            "waves",
+            "nature"
+        ]
+    },
+    {
+        "path": "shakuhachi.png",
+        "name": "Shakuhachi",
+        "tags": [
+            "gm",
+            "pipe",
+            "shakuhachi",
+            "world"
+        ]
+    },
+    {
+        "path": "shamisen.png",
+        "name": "Shamisen",
+        "tags": [
+            "gm",
+            "ethnic",
+            "shamisen",
+            "world"
+        ]
+    },
+    {
+        "path": "sitar.png",
+        "name": "Sitar",
+        "tags": [
+            "gm",
+            "ethnic",
+            "sitar",
+            "world"
+        ]
+    },
+    {
+        "path": "steel-drums.png",
+        "name": "Steel Drums",
+        "tags": [
+            "gm",
+            "percussive",
+            "steel drums",
+            "steelpan"
+        ]
+    },
+    {
+        "path": "strings-section.png",
+        "name": "String Ensemble",
+        "tags": [
+            "gm",
+            "strings",
+            "ensemble",
+            "section",
+            "tremolo",
+            "pizzicato"
+        ]
+    },
+    {
+        "path": "synth-bass.png",
+        "name": "Synth Bass",
+        "tags": [
+            "gm",
+            "synth",
+            "bass",
+            "sub"
+        ]
+    },
+    {
+        "path": "synth-brass.png",
+        "name": "Synth Brass",
+        "tags": [
+            "gm",
+            "synth",
+            "brass"
+        ]
+    },
+    {
+        "path": "synth-drum.png",
+        "name": "Synth Drum",
+        "tags": [
+            "gm",
+            "percussive",
+            "synth drum",
+            "electronic"
+        ]
+    },
+    {
+        "path": "synth-fx.png",
+        "name": "Synth FX",
+        "tags": [
+            "gm",
+            "synth",
+            "fx",
+            "crystal",
+            "atmosphere",
+            "sci-fi"
+        ]
+    },
+    {
+        "path": "synth-lead.png",
+        "name": "Synth Lead",
+        "tags": [
+            "gm",
+            "synth",
+            "lead",
+            "square",
+            "saw"
+        ]
+    },
+    {
+        "path": "synth-pad.png",
+        "name": "Synth Pad",
+        "tags": [
+            "gm",
+            "synth",
+            "pad",
+            "warm",
+            "sweep"
+        ]
+    },
+    {
+        "path": "synthesizer.png",
+        "name": "Synthesizer",
+        "tags": [
+            "synth",
+            "analog",
+            "minimoog",
+            "prophet",
+            "poly"
+        ]
+    },
+    {
+        "path": "taiko.png",
+        "name": "Taiko Drum",
+        "tags": [
+            "gm",
+            "percussive",
+            "taiko",
+            "drum"
+        ]
+    },
+    {
+        "path": "telephone.png",
+        "name": "Telephone",
+        "tags": [
+            "gm",
+            "sfx",
+            "telephone",
+            "ring"
+        ]
+    },
+    {
+        "path": "timpani.png",
+        "name": "Timpani",
+        "tags": [
+            "gm",
+            "timpani",
+            "orchestra"
+        ]
+    },
+    {
+        "path": "tinkle-bell.png",
+        "name": "Tinkle Bell",
+        "tags": [
+            "gm",
+            "percussive",
+            "tinkle bell",
+            "bell"
+        ]
+    },
+    {
+        "path": "trombone.png",
+        "name": "Trombone",
+        "tags": [
+            "gm",
+            "brass",
+            "trombone"
+        ]
+    },
+    {
+        "path": "trumpet.png",
+        "name": "Trumpet",
+        "tags": [
+            "gm",
+            "brass",
+            "trumpet",
+            "muted"
+        ]
+    },
+    {
+        "path": "tuba.png",
+        "name": "Tuba",
+        "tags": [
+            "gm",
+            "brass",
+            "tuba",
+            "low"
+        ]
+    },
+    {
+        "path": "tubular-bells.png",
+        "name": "Tubular Bells",
+        "tags": [
+            "gm",
+            "tubular bells",
+            "chimes"
+        ]
+    },
+    {
+        "path": "vibraphone.png",
+        "name": "Vibraphone",
+        "tags": [
+            "gm",
+            "vibraphone",
+            "mallet"
+        ]
+    },
+    {
+        "path": "viola.png",
+        "name": "Viola",
+        "tags": [
+            "gm",
+            "strings",
+            "viola"
+        ]
+    },
+    {
+        "path": "violin.png",
+        "name": "Violin / Fiddle",
+        "tags": [
+            "gm",
+            "strings",
+            "violin",
+            "fiddle"
+        ]
+    },
+    {
+        "path": "vocoder.png",
+        "name": "Vocoder",
+        "tags": [
+            "vocoder",
+            "vocal",
+            "microkorg",
+            "robot voice"
+        ]
+    },
+    {
+        "path": "whistle.png",
+        "name": "Whistle",
+        "tags": [
+            "gm",
+            "pipe",
+            "whistle",
+            "tin whistle"
+        ]
+    },
+    {
+        "path": "woodblock.png",
+        "name": "Woodblock",
+        "tags": [
+            "gm",
+            "percussive",
+            "woodblock"
+        ]
+    },
+    {
+        "path": "xylophone.png",
+        "name": "Xylophone",
+        "tags": [
+            "gm",
+            "xylophone",
+            "mallet",
+            "wood"
+        ]
+    }
+]
