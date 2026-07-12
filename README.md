@@ -30,6 +30,25 @@ keyboard:
 - **See the sound before you press it.** No landing on the wrong program at the
   wrong moment.
 
+## Make the keys actually switch sounds
+
+These icons are the *visual* layer. To make pressing a key **change your synth's
+sound**, pair them with a Stream Deck plugin that sends a **MIDI Program Change**
+(and optional Bank Select) to your keyboard or workstation. The one I use:
+
+- **[MIDI by Trevligaspel](https://marketplace.elgato.com/product/midi-b068a591-1a69-48fe-9206-b2d24762228b)**
+  (`se.trevligaspel.midi`) — sends Program Change + Bank Select, CC, Notes,
+  Pitch Bend, SysEx, etc. A **Push Button** fires one Program Change; a **Cycle
+  Button** steps through a list of patches.
+  Docs: [Program Change](https://trevligaspel.se/streamdeck/midi/index.php/buttons/generic/program-change).
+
+Workflow: set a key's action to the Program Change (+ Bank Select MSB/LSB) of a
+patch on your synth, then set its **icon from this pack** — using the
+[GM-MAP](GM-MAP.md) to line each program number up with its icon. Now the Rhodes
+key *is* your Rhodes patch, the organ key *is* your organ: one press, right on
+the beat, no menu-diving. *(Trevligaspel's MIDI plugin is third-party and not
+affiliated with this pack.)*
+
 ## What's inside (83 icons)
 
 Organised around the **General MIDI (GM 1) sound map** — the same 16 banks a
