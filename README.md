@@ -2,6 +2,8 @@
 
 > A Stream Deck icon pack for the live keyboardist (short name: **Stage Keys**).
 
+**▶ [Get it free on the Elgato Marketplace](https://marketplace.elgato.com/product/music-instruments-for-stage-keys-f4ce84f5-2eda-4431-9a36-d847e5094fa9)** · CC-BY-4.0 · see the [changelog](CHANGELOG.md)
+
 **Full-colour sound-select icons for the live keyboardist.** One Stream Deck
 key per voice, covering the complete **General MIDI / XP** sound set (all 128
 programs, 16 families) **plus the modern synth categories** best-selling synths
