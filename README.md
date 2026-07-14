@@ -65,11 +65,13 @@ currently on comes alive while the rest stay calm.
 
 ![Animated Stage Keys — all 83 in motion](animated-showcase.webp)
 
-**All 83 in motion above.** The mechanical instruments have **bespoke
-animation** (mellotron reels, vocoder & synth waveforms, drum-machine LEDs,
-arpeggio steps, vibraphone shimmer); the rest get a subtle **active pulse**.
-Bespoke motion coverage grows over time — regenerate with `bin/build-animated.py`
-(uses `sdicons animate`).
+**All 83 in motion above** (transparent background). The motion reads as **how
+the instrument is played**: struck instruments bounce, held winds sway, plucked
+strings wobble, the accordion's bellows stretch, a cymbal spins — and the
+electronic ones get **bespoke internal motion** (mellotron reels, vocoder &
+synth waveforms, drum-machine LEDs, arpeggio steps, vibraphone mallets).
+Regenerate with `bin/build-animated.py` (uses `sdicons animate`); the animated
+Marketplace gallery comes from `bin/maker-media.sh` (`gallery-animated.mp4`).
 
 ## What's inside (83 icons)
 
