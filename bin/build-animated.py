@@ -120,30 +120,49 @@ MOTIONS = {
   "vibraphone": vibraphone,
 }
 
+import json as _json
+from PIL import ImageDraw
 OUT = Path("animated"); (OUT/"icons").mkdir(parents=True, exist_ok=True)
-N, FPS = 30, 15
+N, FPS = 24, 12
+
+def pulse_frames(png, n, ph):
+    """Subtle 'active' breathing + bob of a static icon (for non-bespoke ones)."""
+    base = Image.open(png).convert("RGBA"); out = []
+    for k in range(n):
+        u = 2*math.pi*(k/n) + ph
+        s = 1 + 0.06*math.sin(u); w = max(1, int(144*s))
+        bob = int(round(2*math.sin(u + 1)))
+        r = base.resize((w, w)); f = Image.new("RGBA", (144,144), (0,0,0,0))
+        f.alpha_composite(r, ((144-w)//2, (144-w)//2 + bob)); out.append(f)
+    return out
+
+# bespoke motions -> also saved as standalone active-state WEBP assets
 allframes = {}
 for name, fn in MOTIONS.items():
-    frames = render_phases(fn, N)
-    allframes[name] = frames
-    save_animated(frames, OUT/"icons"/f"{name}.webp", FPS)
+    fr = render_phases(fn, N); allframes[name] = fr
+    save_animated(fr, OUT/"icons"/f"{name}.webp", FPS)
 
-# grid showcase GIF (3x3) for the README
-order = list(MOTIONS)
-cols = 3; rows = (len(order)+cols-1)//cols
-cell = 132; pad = 10
-W = cols*(cell+pad)+pad; Hh = rows*(cell+pad)+pad
+# full showcase: EVERY icon animated — bespoke where defined, else a subtle
+# staggered active pulse of the static icon.
+order = list(_json.load(open("tags.json")))
+for idx, slug in enumerate(order):
+    if slug not in allframes:
+        png = Path("icons")/f"{slug}.png"
+        if png.exists():
+            allframes[slug] = pulse_frames(png, N, idx*0.4)
+order = [s for s in order if allframes.get(s)]
+cols = 10; cell = 108; pad = 6
+rows = (len(order)+cols-1)//cols
+W = cols*cell+(cols+1)*pad; Hh = rows*cell+(rows+1)*pad
 grid = []
 for k in range(N):
-    im = Image.new("RGBA",(W,Hh),(20,20,24,255))
-    from PIL import ImageDraw
-    d = ImageDraw.Draw(im)
-    for idx,name in enumerate(order):
-        r,c = divmod(idx,cols); x=pad+c*(cell+pad); y=pad+r*(cell+pad)
-        d.rounded_rectangle([x,y,x+cell,y+cell],radius=14,fill=(28,28,31,255),outline=(52,52,60,255))
-        fr = allframes[name][k].resize((cell-16,cell-16))
-        im.alpha_composite(fr,(x+8,y+8))
-    grid.append(im.convert("RGBA"))
-grid[0].save("animated-showcase.gif", save_all=True, append_images=grid[1:],
-             duration=int(1000/FPS), loop=0, disposal=2, optimize=True)
-print("wrote animated-showcase.gif + animated/icons/*.webp")
+    im = Image.new("RGBA",(W,Hh),(20,20,24,255)); d = ImageDraw.Draw(im)
+    for i,slug in enumerate(order):
+        r,c = divmod(i,cols); x=pad+c*(cell+pad); y=pad+r*(cell+pad)
+        d.rounded_rectangle([x,y,x+cell,y+cell],radius=12,fill=(28,28,31,255),outline=(52,52,60,255))
+        im.alpha_composite(allframes[slug][k].resize((cell-14,cell-14)),(x+7,y+7))
+    grid.append(im)
+grid[0].save("animated-showcase.webp", format="WEBP", save_all=True,
+             append_images=grid[1:], duration=int(1000/FPS), loop=0,
+             quality=80, method=6)
+print(f"wrote animated-showcase.webp ({len(order)} icons) + animated/icons/*.webp")

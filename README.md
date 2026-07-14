@@ -63,11 +63,13 @@ The idea: **an icon animates when its sound is active**. On a Stream Deck, wire
 (playing), driven by your MIDI plugin's state feedback — so the sound you're
 currently on comes alive while the rest stay calm.
 
-![Animated Stage Keys](animated-showcase.gif)
+![Animated Stage Keys — all 83 in motion](animated-showcase.webp)
 
-Growing set (first wave: mellotron, vocoder, synth lead/pad/bass/fx, drum
-machine, arpeggio, vibraphone). Regenerate with `bin/build-animated.py` (uses
-`sdicons animate`). Instruments with no natural motion stay static.
+**All 83 in motion above.** The mechanical instruments have **bespoke
+animation** (mellotron reels, vocoder & synth waveforms, drum-machine LEDs,
+arpeggio steps, vibraphone shimmer); the rest get a subtle **active pulse**.
+Bespoke motion coverage grows over time — regenerate with `bin/build-animated.py`
+(uses `sdicons animate`).
 
 ## What's inside (83 icons)
 
