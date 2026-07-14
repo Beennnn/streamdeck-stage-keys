@@ -1,85 +1,1644 @@
 {
-    "piano-grand":     { "name": "Grand Piano",      "tags": ["gm", "piano", "keys", "acoustic"] },
-    "piano-upright":   { "name": "Upright Piano",    "tags": ["gm", "piano", "keys", "honky-tonk"] },
-    "ep-rhodes":       { "name": "Rhodes E.Piano",   "tags": ["gm", "electric piano", "rhodes"] },
-    "ep-wurlitzer":    { "name": "Wurlitzer E.Piano","tags": ["electric piano", "wurlitzer"] },
-    "ep-fm":           { "name": "FM / DX E.Piano",  "tags": ["gm", "electric piano", "fm", "dx7"] },
-    "clavinet":        { "name": "Clavinet",         "tags": ["gm", "clavinet", "funk"] },
-    "harpsichord":     { "name": "Harpsichord",      "tags": ["gm", "harpsichord", "baroque"] },
-    "celesta":         { "name": "Celesta",          "tags": ["gm", "celesta", "bells", "keys"] },
-    "glockenspiel":    { "name": "Glockenspiel",     "tags": ["gm", "glockenspiel", "mallet", "bells"] },
-    "music-box":       { "name": "Music Box",        "tags": ["gm", "music box", "chromatic"] },
-    "vibraphone":      { "name": "Vibraphone",       "tags": ["gm", "vibraphone", "mallet"] },
-    "marimba":         { "name": "Marimba",          "tags": ["gm", "marimba", "mallet", "wood"] },
-    "xylophone":       { "name": "Xylophone",        "tags": ["gm", "xylophone", "mallet", "wood"] },
-    "tubular-bells":   { "name": "Tubular Bells",    "tags": ["gm", "tubular bells", "chimes"] },
-    "dulcimer":        { "name": "Dulcimer",         "tags": ["gm", "dulcimer", "santur", "hammered"] },
-    "organ-tonewheel": { "name": "Drawbar Organ",    "tags": ["gm", "organ", "hammond", "drawbars"] },
-    "organ-combo":     { "name": "Combo / Rock Organ","tags": ["gm", "organ", "vox", "rock"] },
-    "organ-pipe":      { "name": "Church / Pipe Organ","tags": ["gm", "organ", "pipe", "church"] },
-    "accordion":       { "name": "Accordion",        "tags": ["gm", "accordion", "reed", "tango"] },
-    "harmonica":       { "name": "Harmonica",        "tags": ["gm", "harmonica", "reed", "blues"] },
-    "guitar-acoustic": { "name": "Acoustic Guitar",  "tags": ["gm", "guitar", "acoustic", "nylon", "steel"] },
-    "guitar-electric": { "name": "Electric Guitar",  "tags": ["gm", "guitar", "electric", "clean", "distortion", "jazz"] },
-    "bass-electric":   { "name": "Electric Bass",    "tags": ["gm", "bass", "electric", "fingered", "picked", "slap", "fretless"] },
-    "double-bass":     { "name": "Acoustic / Double Bass","tags": ["gm", "bass", "double bass", "upright", "contrabass"] },
-    "violin":          { "name": "Violin / Fiddle",  "tags": ["gm", "strings", "violin", "fiddle"] },
-    "viola":           { "name": "Viola",            "tags": ["gm", "strings", "viola"] },
-    "cello":           { "name": "Cello",            "tags": ["gm", "strings", "cello"] },
-    "strings-section": { "name": "String Ensemble",  "tags": ["gm", "strings", "ensemble", "section", "tremolo", "pizzicato"] },
-    "harp":            { "name": "Orchestral Harp",  "tags": ["gm", "strings", "harp"] },
-    "timpani":         { "name": "Timpani",          "tags": ["gm", "timpani", "orchestra"] },
-    "choir":           { "name": "Choir / Voice",    "tags": ["gm", "voice", "choir", "aahs", "oohs"] },
-    "orchestra-hit":   { "name": "Orchestra Hit",    "tags": ["gm", "orchestra hit", "stab"] },
-    "trumpet":         { "name": "Trumpet",          "tags": ["gm", "brass", "trumpet", "muted"] },
-    "trombone":        { "name": "Trombone",         "tags": ["gm", "brass", "trombone"] },
-    "tuba":            { "name": "Tuba",             "tags": ["gm", "brass", "tuba", "low"] },
-    "french-horn":     { "name": "French Horn",      "tags": ["gm", "brass", "french horn"] },
-    "brass-section":   { "name": "Brass Section",    "tags": ["gm", "brass", "section", "synth brass"] },
-    "saxophone":       { "name": "Saxophone",        "tags": ["gm", "reed", "sax", "soprano", "alto", "tenor", "baritone"] },
-    "oboe":            { "name": "Oboe",             "tags": ["gm", "reed", "oboe"] },
-    "english-horn":    { "name": "English Horn",     "tags": ["gm", "reed", "english horn", "cor anglais"] },
-    "bassoon":         { "name": "Bassoon",          "tags": ["gm", "reed", "bassoon"] },
-    "clarinet":        { "name": "Clarinet",         "tags": ["gm", "reed", "clarinet"] },
-    "piccolo":         { "name": "Piccolo",          "tags": ["gm", "pipe", "piccolo"] },
-    "flute":           { "name": "Flute",            "tags": ["gm", "pipe", "flute"] },
-    "recorder":        { "name": "Recorder",         "tags": ["gm", "pipe", "recorder"] },
-    "pan-flute":       { "name": "Pan Flute",        "tags": ["gm", "pipe", "pan flute"] },
-    "blown-bottle":    { "name": "Blown Bottle",     "tags": ["gm", "pipe", "blown bottle"] },
-    "shakuhachi":      { "name": "Shakuhachi",       "tags": ["gm", "pipe", "shakuhachi", "world"] },
-    "whistle":         { "name": "Whistle",          "tags": ["gm", "pipe", "whistle", "tin whistle"] },
-    "ocarina":         { "name": "Ocarina",          "tags": ["gm", "pipe", "ocarina"] },
-    "synth-lead":      { "name": "Synth Lead",       "tags": ["gm", "synth", "lead", "square", "saw"] },
-    "synth-pad":       { "name": "Synth Pad",        "tags": ["gm", "synth", "pad", "warm", "sweep"] },
-    "synth-brass":     { "name": "Synth Brass",      "tags": ["gm", "synth", "brass"] },
-    "synth-bass":      { "name": "Synth Bass",       "tags": ["gm", "synth", "bass", "sub"] },
-    "synth-fx":        { "name": "Synth FX",         "tags": ["gm", "synth", "fx", "crystal", "atmosphere", "sci-fi"] },
-    "sitar":           { "name": "Sitar",            "tags": ["gm", "ethnic", "sitar", "world"] },
-    "banjo":           { "name": "Banjo",            "tags": ["gm", "ethnic", "banjo", "folk"] },
-    "shamisen":        { "name": "Shamisen",         "tags": ["gm", "ethnic", "shamisen", "world"] },
-    "koto":            { "name": "Koto",             "tags": ["gm", "ethnic", "koto", "world"] },
-    "kalimba":         { "name": "Kalimba",          "tags": ["gm", "ethnic", "kalimba", "thumb piano"] },
-    "bagpipe":         { "name": "Bagpipe",          "tags": ["gm", "ethnic", "bagpipe", "world"] },
-    "tinkle-bell":     { "name": "Tinkle Bell",      "tags": ["gm", "percussive", "tinkle bell", "bell"] },
-    "agogo":           { "name": "Agogo",            "tags": ["gm", "percussive", "agogo", "latin"] },
-    "steel-drums":     { "name": "Steel Drums",      "tags": ["gm", "percussive", "steel drums", "steelpan"] },
-    "woodblock":       { "name": "Woodblock",        "tags": ["gm", "percussive", "woodblock"] },
-    "taiko":           { "name": "Taiko Drum",       "tags": ["gm", "percussive", "taiko", "drum"] },
-    "melodic-tom":     { "name": "Melodic Tom",      "tags": ["gm", "percussive", "tom", "drums"] },
-    "synth-drum":      { "name": "Synth Drum",       "tags": ["gm", "percussive", "synth drum", "electronic"] },
-    "reverse-cymbal":  { "name": "Reverse Cymbal",   "tags": ["gm", "percussive", "reverse cymbal", "fx"] },
-    "breath-noise":    { "name": "Breath Noise",     "tags": ["gm", "sfx", "breath"] },
-    "seashore":        { "name": "Seashore",         "tags": ["gm", "sfx", "seashore", "waves", "nature"] },
-    "bird-tweet":      { "name": "Bird Tweet",       "tags": ["gm", "sfx", "bird", "nature"] },
-    "telephone":       { "name": "Telephone",        "tags": ["gm", "sfx", "telephone", "ring"] },
-    "helicopter":      { "name": "Helicopter",       "tags": ["gm", "sfx", "helicopter"] },
-    "applause":        { "name": "Applause",         "tags": ["gm", "sfx", "applause", "crowd"] },
-    "gunshot":         { "name": "Gunshot",          "tags": ["gm", "sfx", "gunshot"] },
-    "synthesizer":     { "name": "Synthesizer",      "tags": ["synth", "analog", "minimoog", "prophet", "poly"] },
-    "drum-kit":        { "name": "Drum Kit",         "tags": ["drums", "percussion", "acoustic kit"] },
-    "drum-machine":    { "name": "Drum Machine",     "tags": ["drums", "808", "909", "rhythm", "electronic"] },
-    "sampler":         { "name": "Sampler / MPC",    "tags": ["sampler", "mpc", "pads", "hip-hop"] },
-    "arpeggio":        { "name": "Arpeggio / Seq",   "tags": ["arpeggio", "sequence", "motion", "arp"] },
-    "mellotron":       { "name": "Mellotron",        "tags": ["mellotron", "tape", "strings", "choir", "flutes"] },
-    "vocoder":         { "name": "Vocoder",          "tags": ["vocoder", "vocal", "microkorg", "robot voice"] }
+    "piano-grand": {
+        "name": "Grand Piano",
+        "tags": [
+            "gm",
+            "piano",
+            "keys",
+            "acoustic"
+        ]
+    },
+    "piano-upright": {
+        "name": "Upright Piano",
+        "tags": [
+            "gm",
+            "piano",
+            "keys",
+            "honky-tonk"
+        ]
+    },
+    "ep-rhodes": {
+        "name": "Rhodes E.Piano",
+        "tags": [
+            "gm",
+            "electric piano",
+            "rhodes"
+        ]
+    },
+    "ep-wurlitzer": {
+        "name": "Wurlitzer E.Piano",
+        "tags": [
+            "electric piano",
+            "wurlitzer"
+        ]
+    },
+    "ep-fm": {
+        "name": "FM / DX E.Piano",
+        "tags": [
+            "gm",
+            "electric piano",
+            "fm",
+            "dx7"
+        ]
+    },
+    "clavinet": {
+        "name": "Clavinet",
+        "tags": [
+            "gm",
+            "clavinet",
+            "funk"
+        ]
+    },
+    "harpsichord": {
+        "name": "Harpsichord",
+        "tags": [
+            "gm",
+            "harpsichord",
+            "baroque"
+        ]
+    },
+    "celesta": {
+        "name": "Celesta",
+        "tags": [
+            "gm",
+            "celesta",
+            "bells",
+            "keys"
+        ]
+    },
+    "glockenspiel": {
+        "name": "Glockenspiel",
+        "tags": [
+            "gm",
+            "glockenspiel",
+            "mallet",
+            "bells"
+        ]
+    },
+    "music-box": {
+        "name": "Music Box",
+        "tags": [
+            "gm",
+            "music box",
+            "chromatic"
+        ]
+    },
+    "vibraphone": {
+        "name": "Vibraphone",
+        "tags": [
+            "gm",
+            "vibraphone",
+            "mallet"
+        ]
+    },
+    "marimba": {
+        "name": "Marimba",
+        "tags": [
+            "gm",
+            "marimba",
+            "mallet",
+            "wood"
+        ]
+    },
+    "xylophone": {
+        "name": "Xylophone",
+        "tags": [
+            "gm",
+            "xylophone",
+            "mallet",
+            "wood"
+        ]
+    },
+    "tubular-bells": {
+        "name": "Tubular Bells",
+        "tags": [
+            "gm",
+            "tubular bells",
+            "chimes"
+        ]
+    },
+    "dulcimer": {
+        "name": "Dulcimer",
+        "tags": [
+            "gm",
+            "dulcimer",
+            "santur",
+            "hammered"
+        ]
+    },
+    "organ-tonewheel": {
+        "name": "Drawbar Organ",
+        "tags": [
+            "gm",
+            "organ",
+            "hammond",
+            "drawbars"
+        ]
+    },
+    "organ-combo": {
+        "name": "Combo / Rock Organ",
+        "tags": [
+            "gm",
+            "organ",
+            "vox",
+            "rock"
+        ]
+    },
+    "organ-pipe": {
+        "name": "Church / Pipe Organ",
+        "tags": [
+            "gm",
+            "organ",
+            "pipe",
+            "church"
+        ]
+    },
+    "accordion": {
+        "name": "Accordion",
+        "tags": [
+            "gm",
+            "accordion",
+            "reed",
+            "tango"
+        ]
+    },
+    "harmonica": {
+        "name": "Harmonica",
+        "tags": [
+            "gm",
+            "harmonica",
+            "reed",
+            "blues"
+        ]
+    },
+    "guitar-acoustic": {
+        "name": "Acoustic Guitar",
+        "tags": [
+            "gm",
+            "guitar",
+            "acoustic",
+            "nylon",
+            "steel"
+        ]
+    },
+    "guitar-electric": {
+        "name": "Electric Guitar",
+        "tags": [
+            "gm",
+            "guitar",
+            "electric",
+            "clean",
+            "distortion",
+            "jazz"
+        ]
+    },
+    "bass-electric": {
+        "name": "Electric Bass",
+        "tags": [
+            "gm",
+            "bass",
+            "electric",
+            "fingered",
+            "picked",
+            "slap",
+            "fretless"
+        ]
+    },
+    "double-bass": {
+        "name": "Acoustic / Double Bass",
+        "tags": [
+            "gm",
+            "bass",
+            "double bass",
+            "upright",
+            "contrabass"
+        ]
+    },
+    "violin": {
+        "name": "Violin / Fiddle",
+        "tags": [
+            "gm",
+            "strings",
+            "violin",
+            "fiddle"
+        ]
+    },
+    "viola": {
+        "name": "Viola",
+        "tags": [
+            "gm",
+            "strings",
+            "viola"
+        ]
+    },
+    "cello": {
+        "name": "Cello",
+        "tags": [
+            "gm",
+            "strings",
+            "cello"
+        ]
+    },
+    "strings-section": {
+        "name": "String Ensemble",
+        "tags": [
+            "gm",
+            "strings",
+            "ensemble",
+            "section",
+            "tremolo",
+            "pizzicato"
+        ]
+    },
+    "harp": {
+        "name": "Orchestral Harp",
+        "tags": [
+            "gm",
+            "strings",
+            "harp"
+        ]
+    },
+    "timpani": {
+        "name": "Timpani",
+        "tags": [
+            "gm",
+            "timpani",
+            "orchestra"
+        ]
+    },
+    "choir": {
+        "name": "Choir / Voice",
+        "tags": [
+            "gm",
+            "voice",
+            "choir",
+            "aahs",
+            "oohs"
+        ]
+    },
+    "orchestra-hit": {
+        "name": "Orchestra Hit",
+        "tags": [
+            "gm",
+            "orchestra hit",
+            "stab"
+        ]
+    },
+    "trumpet": {
+        "name": "Trumpet",
+        "tags": [
+            "gm",
+            "brass",
+            "trumpet",
+            "muted"
+        ]
+    },
+    "trombone": {
+        "name": "Trombone",
+        "tags": [
+            "gm",
+            "brass",
+            "trombone"
+        ]
+    },
+    "tuba": {
+        "name": "Tuba",
+        "tags": [
+            "gm",
+            "brass",
+            "tuba",
+            "low"
+        ]
+    },
+    "french-horn": {
+        "name": "French Horn",
+        "tags": [
+            "gm",
+            "brass",
+            "french horn"
+        ]
+    },
+    "brass-section": {
+        "name": "Brass Section",
+        "tags": [
+            "gm",
+            "brass",
+            "section",
+            "synth brass"
+        ]
+    },
+    "saxophone": {
+        "name": "Saxophone",
+        "tags": [
+            "gm",
+            "reed",
+            "sax",
+            "soprano",
+            "alto",
+            "tenor",
+            "baritone"
+        ]
+    },
+    "oboe": {
+        "name": "Oboe",
+        "tags": [
+            "gm",
+            "reed",
+            "oboe"
+        ]
+    },
+    "english-horn": {
+        "name": "English Horn",
+        "tags": [
+            "gm",
+            "reed",
+            "english horn",
+            "cor anglais"
+        ]
+    },
+    "bassoon": {
+        "name": "Bassoon",
+        "tags": [
+            "gm",
+            "reed",
+            "bassoon"
+        ]
+    },
+    "clarinet": {
+        "name": "Clarinet",
+        "tags": [
+            "gm",
+            "reed",
+            "clarinet"
+        ]
+    },
+    "piccolo": {
+        "name": "Piccolo",
+        "tags": [
+            "gm",
+            "pipe",
+            "piccolo"
+        ]
+    },
+    "flute": {
+        "name": "Flute",
+        "tags": [
+            "gm",
+            "pipe",
+            "flute"
+        ]
+    },
+    "recorder": {
+        "name": "Recorder",
+        "tags": [
+            "gm",
+            "pipe",
+            "recorder"
+        ]
+    },
+    "pan-flute": {
+        "name": "Pan Flute",
+        "tags": [
+            "gm",
+            "pipe",
+            "pan flute"
+        ]
+    },
+    "blown-bottle": {
+        "name": "Blown Bottle",
+        "tags": [
+            "gm",
+            "pipe",
+            "blown bottle"
+        ]
+    },
+    "shakuhachi": {
+        "name": "Shakuhachi",
+        "tags": [
+            "gm",
+            "pipe",
+            "shakuhachi",
+            "world"
+        ]
+    },
+    "whistle": {
+        "name": "Whistle",
+        "tags": [
+            "gm",
+            "pipe",
+            "whistle",
+            "tin whistle"
+        ]
+    },
+    "ocarina": {
+        "name": "Ocarina",
+        "tags": [
+            "gm",
+            "pipe",
+            "ocarina"
+        ]
+    },
+    "synth-lead": {
+        "name": "Synth Lead",
+        "tags": [
+            "gm",
+            "synth",
+            "lead",
+            "square",
+            "saw"
+        ]
+    },
+    "synth-pad": {
+        "name": "Synth Pad",
+        "tags": [
+            "gm",
+            "synth",
+            "pad",
+            "warm",
+            "sweep"
+        ]
+    },
+    "synth-brass": {
+        "name": "Synth Brass",
+        "tags": [
+            "gm",
+            "synth",
+            "brass"
+        ]
+    },
+    "synth-bass": {
+        "name": "Synth Bass",
+        "tags": [
+            "gm",
+            "synth",
+            "bass",
+            "sub"
+        ]
+    },
+    "synth-fx": {
+        "name": "Synth FX",
+        "tags": [
+            "gm",
+            "synth",
+            "fx",
+            "crystal",
+            "atmosphere",
+            "sci-fi"
+        ]
+    },
+    "sitar": {
+        "name": "Sitar",
+        "tags": [
+            "gm",
+            "ethnic",
+            "sitar",
+            "world"
+        ]
+    },
+    "banjo": {
+        "name": "Banjo",
+        "tags": [
+            "gm",
+            "ethnic",
+            "banjo",
+            "folk"
+        ]
+    },
+    "shamisen": {
+        "name": "Shamisen",
+        "tags": [
+            "gm",
+            "ethnic",
+            "shamisen",
+            "world"
+        ]
+    },
+    "koto": {
+        "name": "Koto",
+        "tags": [
+            "gm",
+            "ethnic",
+            "koto",
+            "world"
+        ]
+    },
+    "kalimba": {
+        "name": "Kalimba",
+        "tags": [
+            "gm",
+            "ethnic",
+            "kalimba",
+            "thumb piano"
+        ]
+    },
+    "bagpipe": {
+        "name": "Bagpipe",
+        "tags": [
+            "gm",
+            "ethnic",
+            "bagpipe",
+            "world"
+        ]
+    },
+    "tinkle-bell": {
+        "name": "Tinkle Bell",
+        "tags": [
+            "gm",
+            "percussive",
+            "tinkle bell",
+            "bell"
+        ]
+    },
+    "agogo": {
+        "name": "Agogo",
+        "tags": [
+            "gm",
+            "percussive",
+            "agogo",
+            "latin"
+        ]
+    },
+    "steel-drums": {
+        "name": "Steel Drums",
+        "tags": [
+            "gm",
+            "percussive",
+            "steel drums",
+            "steelpan"
+        ]
+    },
+    "woodblock": {
+        "name": "Woodblock",
+        "tags": [
+            "gm",
+            "percussive",
+            "woodblock"
+        ]
+    },
+    "taiko": {
+        "name": "Taiko Drum",
+        "tags": [
+            "gm",
+            "percussive",
+            "taiko",
+            "drum"
+        ]
+    },
+    "melodic-tom": {
+        "name": "Melodic Tom",
+        "tags": [
+            "gm",
+            "percussive",
+            "tom",
+            "drums"
+        ]
+    },
+    "synth-drum": {
+        "name": "Synth Drum",
+        "tags": [
+            "gm",
+            "percussive",
+            "synth drum",
+            "electronic"
+        ]
+    },
+    "reverse-cymbal": {
+        "name": "Reverse Cymbal",
+        "tags": [
+            "gm",
+            "percussive",
+            "reverse cymbal",
+            "fx"
+        ]
+    },
+    "breath-noise": {
+        "name": "Breath Noise",
+        "tags": [
+            "gm",
+            "sfx",
+            "breath"
+        ]
+    },
+    "seashore": {
+        "name": "Seashore",
+        "tags": [
+            "gm",
+            "sfx",
+            "seashore",
+            "waves",
+            "nature"
+        ]
+    },
+    "bird-tweet": {
+        "name": "Bird Tweet",
+        "tags": [
+            "gm",
+            "sfx",
+            "bird",
+            "nature"
+        ]
+    },
+    "telephone": {
+        "name": "Telephone",
+        "tags": [
+            "gm",
+            "sfx",
+            "telephone",
+            "ring"
+        ]
+    },
+    "helicopter": {
+        "name": "Helicopter",
+        "tags": [
+            "gm",
+            "sfx",
+            "helicopter"
+        ]
+    },
+    "applause": {
+        "name": "Applause",
+        "tags": [
+            "gm",
+            "sfx",
+            "applause",
+            "crowd"
+        ]
+    },
+    "gunshot": {
+        "name": "Gunshot",
+        "tags": [
+            "gm",
+            "sfx",
+            "gunshot"
+        ]
+    },
+    "synthesizer": {
+        "name": "Synthesizer",
+        "tags": [
+            "synth",
+            "analog",
+            "minimoog",
+            "prophet",
+            "poly"
+        ]
+    },
+    "drum-kit": {
+        "name": "Drum Kit",
+        "tags": [
+            "drums",
+            "percussion",
+            "acoustic kit"
+        ]
+    },
+    "drum-machine": {
+        "name": "Drum Machine",
+        "tags": [
+            "drums",
+            "808",
+            "909",
+            "rhythm",
+            "electronic"
+        ]
+    },
+    "sampler": {
+        "name": "Sampler / MPC",
+        "tags": [
+            "sampler",
+            "mpc",
+            "pads",
+            "hip-hop"
+        ]
+    },
+    "arpeggio": {
+        "name": "Arpeggio / Seq",
+        "tags": [
+            "arpeggio",
+            "sequence",
+            "motion",
+            "arp"
+        ]
+    },
+    "mellotron": {
+        "name": "Mellotron",
+        "tags": [
+            "mellotron",
+            "tape",
+            "strings",
+            "choir",
+            "flutes"
+        ]
+    },
+    "vocoder": {
+        "name": "Vocoder",
+        "tags": [
+            "vocoder",
+            "vocal",
+            "microkorg",
+            "robot voice"
+        ]
+    },
+    "piano-grand-playing": {
+        "name": "Grand Piano (playing)",
+        "tags": [
+            "acoustic",
+            "active",
+            "animated",
+            "gm",
+            "keys",
+            "piano"
+        ]
+    },
+    "piano-upright-playing": {
+        "name": "Upright Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "honky-tonk",
+            "keys",
+            "piano"
+        ]
+    },
+    "ep-rhodes-playing": {
+        "name": "Rhodes E.Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "electric piano",
+            "gm",
+            "rhodes"
+        ]
+    },
+    "ep-wurlitzer-playing": {
+        "name": "Wurlitzer E.Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "electric piano",
+            "wurlitzer"
+        ]
+    },
+    "ep-fm-playing": {
+        "name": "FM / DX E.Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "dx7",
+            "electric piano",
+            "fm",
+            "gm"
+        ]
+    },
+    "clavinet-playing": {
+        "name": "Clavinet (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "clavinet",
+            "funk",
+            "gm"
+        ]
+    },
+    "harpsichord-playing": {
+        "name": "Harpsichord (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "baroque",
+            "gm",
+            "harpsichord"
+        ]
+    },
+    "celesta-playing": {
+        "name": "Celesta (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bells",
+            "celesta",
+            "gm",
+            "keys"
+        ]
+    },
+    "glockenspiel-playing": {
+        "name": "Glockenspiel (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bells",
+            "glockenspiel",
+            "gm",
+            "mallet"
+        ]
+    },
+    "music-box-playing": {
+        "name": "Music Box (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "chromatic",
+            "gm",
+            "music box"
+        ]
+    },
+    "vibraphone-playing": {
+        "name": "Vibraphone (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "mallet",
+            "vibraphone"
+        ]
+    },
+    "marimba-playing": {
+        "name": "Marimba (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "mallet",
+            "marimba",
+            "wood"
+        ]
+    },
+    "xylophone-playing": {
+        "name": "Xylophone (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "mallet",
+            "wood",
+            "xylophone"
+        ]
+    },
+    "tubular-bells-playing": {
+        "name": "Tubular Bells (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "chimes",
+            "gm",
+            "tubular bells"
+        ]
+    },
+    "dulcimer-playing": {
+        "name": "Dulcimer (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "dulcimer",
+            "gm",
+            "hammered",
+            "santur"
+        ]
+    },
+    "organ-tonewheel-playing": {
+        "name": "Drawbar Organ (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "drawbars",
+            "gm",
+            "hammond",
+            "organ"
+        ]
+    },
+    "organ-combo-playing": {
+        "name": "Combo / Rock Organ (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "organ",
+            "rock",
+            "vox"
+        ]
+    },
+    "organ-pipe-playing": {
+        "name": "Church / Pipe Organ (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "church",
+            "gm",
+            "organ",
+            "pipe"
+        ]
+    },
+    "accordion-playing": {
+        "name": "Accordion (playing)",
+        "tags": [
+            "accordion",
+            "active",
+            "animated",
+            "gm",
+            "reed",
+            "tango"
+        ]
+    },
+    "harmonica-playing": {
+        "name": "Harmonica (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "blues",
+            "gm",
+            "harmonica",
+            "reed"
+        ]
+    },
+    "guitar-acoustic-playing": {
+        "name": "Acoustic Guitar (playing)",
+        "tags": [
+            "acoustic",
+            "active",
+            "animated",
+            "gm",
+            "guitar",
+            "nylon",
+            "steel"
+        ]
+    },
+    "guitar-electric-playing": {
+        "name": "Electric Guitar (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "clean",
+            "distortion",
+            "electric",
+            "gm",
+            "guitar",
+            "jazz"
+        ]
+    },
+    "bass-electric-playing": {
+        "name": "Electric Bass (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "electric",
+            "fingered",
+            "fretless",
+            "gm",
+            "picked",
+            "slap"
+        ]
+    },
+    "double-bass-playing": {
+        "name": "Acoustic / Double Bass (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "contrabass",
+            "double bass",
+            "gm",
+            "upright"
+        ]
+    },
+    "violin-playing": {
+        "name": "Violin / Fiddle (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "fiddle",
+            "gm",
+            "strings",
+            "violin"
+        ]
+    },
+    "viola-playing": {
+        "name": "Viola (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "strings",
+            "viola"
+        ]
+    },
+    "cello-playing": {
+        "name": "Cello (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "cello",
+            "gm",
+            "strings"
+        ]
+    },
+    "strings-section-playing": {
+        "name": "String Ensemble (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ensemble",
+            "gm",
+            "pizzicato",
+            "section",
+            "strings",
+            "tremolo"
+        ]
+    },
+    "harp-playing": {
+        "name": "Orchestral Harp (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "harp",
+            "strings"
+        ]
+    },
+    "timpani-playing": {
+        "name": "Timpani (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "orchestra",
+            "timpani"
+        ]
+    },
+    "choir-playing": {
+        "name": "Choir / Voice (playing)",
+        "tags": [
+            "aahs",
+            "active",
+            "animated",
+            "choir",
+            "gm",
+            "oohs",
+            "voice"
+        ]
+    },
+    "orchestra-hit-playing": {
+        "name": "Orchestra Hit (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "orchestra hit",
+            "stab"
+        ]
+    },
+    "trumpet-playing": {
+        "name": "Trumpet (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "gm",
+            "muted",
+            "trumpet"
+        ]
+    },
+    "trombone-playing": {
+        "name": "Trombone (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "gm",
+            "trombone"
+        ]
+    },
+    "tuba-playing": {
+        "name": "Tuba (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "gm",
+            "low",
+            "tuba"
+        ]
+    },
+    "french-horn-playing": {
+        "name": "French Horn (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "french horn",
+            "gm"
+        ]
+    },
+    "brass-section-playing": {
+        "name": "Brass Section (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "gm",
+            "section",
+            "synth brass"
+        ]
+    },
+    "saxophone-playing": {
+        "name": "Saxophone (playing)",
+        "tags": [
+            "active",
+            "alto",
+            "animated",
+            "baritone",
+            "gm",
+            "reed",
+            "sax",
+            "soprano",
+            "tenor"
+        ]
+    },
+    "oboe-playing": {
+        "name": "Oboe (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "oboe",
+            "reed"
+        ]
+    },
+    "english-horn-playing": {
+        "name": "English Horn (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "cor anglais",
+            "english horn",
+            "gm",
+            "reed"
+        ]
+    },
+    "bassoon-playing": {
+        "name": "Bassoon (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bassoon",
+            "gm",
+            "reed"
+        ]
+    },
+    "clarinet-playing": {
+        "name": "Clarinet (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "clarinet",
+            "gm",
+            "reed"
+        ]
+    },
+    "piccolo-playing": {
+        "name": "Piccolo (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "piccolo",
+            "pipe"
+        ]
+    },
+    "flute-playing": {
+        "name": "Flute (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "flute",
+            "gm",
+            "pipe"
+        ]
+    },
+    "recorder-playing": {
+        "name": "Recorder (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "pipe",
+            "recorder"
+        ]
+    },
+    "pan-flute-playing": {
+        "name": "Pan Flute (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "pan flute",
+            "pipe"
+        ]
+    },
+    "blown-bottle-playing": {
+        "name": "Blown Bottle (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "blown bottle",
+            "gm",
+            "pipe"
+        ]
+    },
+    "shakuhachi-playing": {
+        "name": "Shakuhachi (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "pipe",
+            "shakuhachi",
+            "world"
+        ]
+    },
+    "whistle-playing": {
+        "name": "Whistle (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "pipe",
+            "tin whistle",
+            "whistle"
+        ]
+    },
+    "ocarina-playing": {
+        "name": "Ocarina (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "ocarina",
+            "pipe"
+        ]
+    },
+    "synth-lead-playing": {
+        "name": "Synth Lead (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "lead",
+            "saw",
+            "square",
+            "synth"
+        ]
+    },
+    "synth-pad-playing": {
+        "name": "Synth Pad (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "pad",
+            "sweep",
+            "synth",
+            "warm"
+        ]
+    },
+    "synth-brass-playing": {
+        "name": "Synth Brass (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "gm",
+            "synth"
+        ]
+    },
+    "synth-bass-playing": {
+        "name": "Synth Bass (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "gm",
+            "sub",
+            "synth"
+        ]
+    },
+    "synth-fx-playing": {
+        "name": "Synth FX (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "atmosphere",
+            "crystal",
+            "fx",
+            "gm",
+            "sci-fi",
+            "synth"
+        ]
+    },
+    "sitar-playing": {
+        "name": "Sitar (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ethnic",
+            "gm",
+            "sitar",
+            "world"
+        ]
+    },
+    "banjo-playing": {
+        "name": "Banjo (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "banjo",
+            "ethnic",
+            "folk",
+            "gm"
+        ]
+    },
+    "shamisen-playing": {
+        "name": "Shamisen (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ethnic",
+            "gm",
+            "shamisen",
+            "world"
+        ]
+    },
+    "koto-playing": {
+        "name": "Koto (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ethnic",
+            "gm",
+            "koto",
+            "world"
+        ]
+    },
+    "kalimba-playing": {
+        "name": "Kalimba (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ethnic",
+            "gm",
+            "kalimba",
+            "thumb piano"
+        ]
+    },
+    "bagpipe-playing": {
+        "name": "Bagpipe (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bagpipe",
+            "ethnic",
+            "gm",
+            "world"
+        ]
+    },
+    "tinkle-bell-playing": {
+        "name": "Tinkle Bell (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bell",
+            "gm",
+            "percussive",
+            "tinkle bell"
+        ]
+    },
+    "agogo-playing": {
+        "name": "Agogo (playing)",
+        "tags": [
+            "active",
+            "agogo",
+            "animated",
+            "gm",
+            "latin",
+            "percussive"
+        ]
+    },
+    "steel-drums-playing": {
+        "name": "Steel Drums (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "percussive",
+            "steel drums",
+            "steelpan"
+        ]
+    },
+    "woodblock-playing": {
+        "name": "Woodblock (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "percussive",
+            "woodblock"
+        ]
+    },
+    "taiko-playing": {
+        "name": "Taiko Drum (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "drum",
+            "gm",
+            "percussive",
+            "taiko"
+        ]
+    },
+    "melodic-tom-playing": {
+        "name": "Melodic Tom (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "drums",
+            "gm",
+            "percussive",
+            "tom"
+        ]
+    },
+    "synth-drum-playing": {
+        "name": "Synth Drum (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "electronic",
+            "gm",
+            "percussive",
+            "synth drum"
+        ]
+    },
+    "reverse-cymbal-playing": {
+        "name": "Reverse Cymbal (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "fx",
+            "gm",
+            "percussive",
+            "reverse cymbal"
+        ]
+    },
+    "breath-noise-playing": {
+        "name": "Breath Noise (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "breath",
+            "gm",
+            "sfx"
+        ]
+    },
+    "seashore-playing": {
+        "name": "Seashore (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "nature",
+            "seashore",
+            "sfx",
+            "waves"
+        ]
+    },
+    "bird-tweet-playing": {
+        "name": "Bird Tweet (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bird",
+            "gm",
+            "nature",
+            "sfx"
+        ]
+    },
+    "telephone-playing": {
+        "name": "Telephone (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "ring",
+            "sfx",
+            "telephone"
+        ]
+    },
+    "helicopter-playing": {
+        "name": "Helicopter (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "helicopter",
+            "sfx"
+        ]
+    },
+    "applause-playing": {
+        "name": "Applause (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "applause",
+            "crowd",
+            "gm",
+            "sfx"
+        ]
+    },
+    "gunshot-playing": {
+        "name": "Gunshot (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "gunshot",
+            "sfx"
+        ]
+    },
+    "synthesizer-playing": {
+        "name": "Synthesizer (playing)",
+        "tags": [
+            "active",
+            "analog",
+            "animated",
+            "minimoog",
+            "poly",
+            "prophet",
+            "synth"
+        ]
+    },
+    "drum-kit-playing": {
+        "name": "Drum Kit (playing)",
+        "tags": [
+            "acoustic kit",
+            "active",
+            "animated",
+            "drums",
+            "percussion"
+        ]
+    },
+    "drum-machine-playing": {
+        "name": "Drum Machine (playing)",
+        "tags": [
+            "808",
+            "909",
+            "active",
+            "animated",
+            "drums",
+            "electronic",
+            "rhythm"
+        ]
+    },
+    "sampler-playing": {
+        "name": "Sampler / MPC (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "hip-hop",
+            "mpc",
+            "pads",
+            "sampler"
+        ]
+    },
+    "arpeggio-playing": {
+        "name": "Arpeggio / Seq (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "arp",
+            "arpeggio",
+            "motion",
+            "sequence"
+        ]
+    },
+    "mellotron-playing": {
+        "name": "Mellotron (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "choir",
+            "flutes",
+            "mellotron",
+            "strings",
+            "tape"
+        ]
+    },
+    "vocoder-playing": {
+        "name": "Vocoder (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "microkorg",
+            "robot voice",
+            "vocal",
+            "vocoder"
+        ]
+    }
 }

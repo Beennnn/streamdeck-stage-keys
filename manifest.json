@@ -1,7 +1,7 @@
 {
     "Name": "Music Instruments for Stage Keys",
     "Author": "Beennnn",
-    "Version": "1.0.0",
+    "Version": "1.1.0",
     "Description": "Full-colour sound-select icons for the live keyboardist - one Stream Deck key per voice, covering the complete General MIDI / XP sound set (128 programs, 16 families) plus modern synth categories (synthesizer, drum kit, drum machine, sampler/MPC, arpeggio, mellotron, vocoder). Recognise the sound at a glance under stage lighting, no menu-diving. Pair with a MIDI plugin (e.g. the free Midi Button by Tom Kelly, or Trevligaspel's MIDI) that sends Program Change, so each key both shows and selects the patch. Open-source, built with the sdicons toolkit: github.com/Beennnn/stream-deck-icons",
     "Icon": "icon.svg",
     "URL": "https://github.com/Beennnn/streamdeck-stage-keys",
