@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+  <!-- woodwinds section: a flute, a clarinet and a saxophone fanned together -->
+  <!-- flute (silver), tilted back-left -->
+  <g transform="rotate(-30 74 66)">
+    <rect x="30" y="60" width="86" height="11" rx="5.5" fill="#cfd2d6"/>
+    <rect x="30" y="60" width="86" height="4" rx="2" fill="#eef0f2"/>
+    <g fill="#f2c14e" stroke="#9c7a1e" stroke-width="0.7"><circle cx="52" cy="65" r="3.4"/><circle cx="66" cy="65" r="3.4"/><circle cx="80" cy="65" r="3.4"/><circle cx="94" cy="65" r="3.4"/></g>
+  </g>
+  <!-- clarinet (black) upright centre -->
+  <g transform="rotate(-6 74 74)">
+    <rect x="66" y="26" width="10" height="6" rx="2" fill="#c9a24a"/>
+    <rect x="65" y="32" width="12" height="72" rx="3" fill="#141414"/>
+    <rect x="67" y="32" width="4" height="72" fill="#2a2a2a"/>
+    <path d="M61 104 q0 13 10 16 q10 -3 10 -16 z" fill="#141414"/>
+    <g fill="#d6d8dc"><circle cx="71" cy="46" r="2.8"/><circle cx="71" cy="58" r="2.8"/><circle cx="71" cy="70" r="2.8"/><circle cx="71" cy="82" r="2.8"/></g>
+  </g>
+  <!-- saxophone (gold), front-right -->
+  <g transform="rotate(10 92 88)">
+    <path d="M86 40 q10 4 11 22 L99 74" fill="none" stroke="#e0a91e" stroke-width="10" stroke-linecap="round"/>
+    <path d="M99 74 q3 20 -14 20 q-15 0 -15 -15" fill="none" stroke="#e0a91e" stroke-width="10" stroke-linecap="round"/>
+    <path d="M70 78 L70 58 q0 -7 -6 -9" fill="none" stroke="#e0a91e" stroke-width="10" stroke-linecap="round"/>
+    <path d="M64 52 q-9 -2 -14 4 q-3 4 2 7 q8 4 16 -1 z" fill="#f4c542"/>
+    <g fill="#f7d774" stroke="#9c6b12" stroke-width="0.8"><circle cx="95" cy="52" r="2.8"/><circle cx="97" cy="62" r="2.8"/></g>
+  </g>
+</svg>

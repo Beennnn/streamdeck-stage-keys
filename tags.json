@@ -1640,5 +1640,85 @@
             "vocal",
             "vocoder"
         ]
+    },
+    "vibanet": {
+        "name": "Vibanet",
+        "tags": [
+            "electric piano",
+            "clavinet",
+            "vibraphone",
+            "keys"
+        ]
+    },
+    "bass-flute": {
+        "name": "Bass Flute",
+        "tags": [
+            "gm",
+            "woodwind",
+            "flute",
+            "bass"
+        ]
+    },
+    "woodwinds-section": {
+        "name": "Woodwinds Section",
+        "tags": [
+            "woodwind",
+            "section",
+            "ensemble"
+        ]
+    },
+    "synth-saw": {
+        "name": "Saw Lead Synth",
+        "tags": [
+            "synth",
+            "lead",
+            "sawtooth",
+            "mono"
+        ]
+    },
+    "synth-square": {
+        "name": "Square Lead Synth",
+        "tags": [
+            "synth",
+            "lead",
+            "square",
+            "vintage"
+        ]
+    },
+    "synth-talkbox": {
+        "name": "Talkbox Synth",
+        "tags": [
+            "synth",
+            "talkbox",
+            "lead",
+            "voice"
+        ]
+    },
+    "synth-glide": {
+        "name": "Portamento Lead Synth",
+        "tags": [
+            "synth",
+            "lead",
+            "portamento",
+            "glide"
+        ]
+    },
+    "synth-resonator": {
+        "name": "Resonator Synth",
+        "tags": [
+            "synth",
+            "resonant",
+            "filter",
+            "groove"
+        ]
+    },
+    "synth-sweep": {
+        "name": "Sweep Poly Synth",
+        "tags": [
+            "synth",
+            "poly",
+            "sweep",
+            "filter"
+        ]
     }
 }

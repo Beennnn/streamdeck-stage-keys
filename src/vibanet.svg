@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+  <!-- vibanet: electric clavinet body with metallic vibe bars above (Hohner Pianet/vibe hybrid) -->
+  <!-- floating vibe bars -->
+  <g fill="#e0c266"><rect x="30" y="34" width="15" height="9" rx="2"/><rect x="50" y="34" width="15" height="9" rx="2"/><rect x="70" y="34" width="15" height="9" rx="2"/><rect x="90" y="34" width="15" height="9" rx="2"/></g>
+  <g fill="#c9a24a"><rect x="30" y="34" width="15" height="3" rx="1"/><rect x="50" y="34" width="15" height="3" rx="1"/><rect x="70" y="34" width="15" height="3" rx="1"/><rect x="90" y="34" width="15" height="3" rx="1"/></g>
+  <!-- mallet -->
+  <line x1="64" y1="52" x2="108" y2="30" stroke="#7a5a2a" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="64" cy="52" r="5" fill="#c0392b"/>
+  <!-- electric keyboard slab: amber rail + dark metallic body -->
+  <rect x="18" y="62" width="108" height="12" rx="3" fill="#d08a2a"/>
+  <rect x="18" y="62" width="108" height="4" rx="2" fill="#e8a94a"/>
+  <rect x="18" y="72" width="108" height="30" rx="3" fill="#2a2a30"/>
+  <rect x="24" y="84" width="96" height="16" rx="2" fill="#ece8df"/>
+  <g fill="#1a1a1e"><rect x="31" y="84" width="4" height="10"/><rect x="40" y="84" width="4" height="10"/><rect x="54" y="84" width="4" height="10"/><rect x="63" y="84" width="4" height="10"/><rect x="72" y="84" width="4" height="10"/><rect x="86" y="84" width="4" height="10"/><rect x="95" y="84" width="4" height="10"/><rect x="109" y="84" width="4" height="10"/></g>
+</svg>

@@ -48,6 +48,15 @@ ANCHOR = {
     "french-horn":     (70, 73, 0.48),
     "trombone":        (72, 72, 0.46),
     "brass-section":   (72, 72, 0.48),
+    "vibanet":         (72, 68, 0.50),
+    "bass-flute":      (72, 76, 0.47),
+    "woodwinds-section": (74, 66, 0.48),
+    "synth-saw":       (72, 70, 0.48),
+    "synth-square":    (72, 70, 0.48),
+    "synth-talkbox":   (72, 70, 0.48),
+    "synth-glide":     (72, 70, 0.48),
+    "synth-resonator": (72, 70, 0.48),
+    "synth-sweep":     (72, 69, 0.48),
 }
 
 TARGET_BL = (48, 98)   # lower-left  quadrant centre (instrument A)
@@ -105,7 +114,37 @@ DEFAULT_PAIRS = [
 ]
 
 
+# Live-rig matrix — Benoît's two sound-select rows, bottom (Track 1 keyboards) x
+# top (Track 2 leads). A split key = a Track-1 voice layered under a Track-2 lead.
+# (label, kit source). Labels come from the deck; sources from src/. Output name
+# is "<t1>__<t2>" so the two "strings" (keyboard pad vs SWAM) never collide.
+TRACK1 = [
+    ("piano", "piano-upright"), ("clav", "clavinet"), ("vibanet", "vibanet"),
+    ("wurli", "ep-wurlitzer"), ("rhodes", "ep-rhodes"),
+    ("organ", "organ-tonewheel"), ("strings", "strings-section"),
+]
+TRACK2 = [
+    ("strings", "strings-section"), ("violin", "violin"), ("viola", "viola"), ("cello", "cello"),
+    ("woodwinds", "woodwinds-section"), ("piccolo", "piccolo"), ("flute", "flute"), ("bassflute", "bass-flute"),
+    ("brass", "brass-section"), ("trumpet", "trumpet"), ("sax", "saxophone"), ("trombone", "trombone"),
+    ("sub37hs", "synth-saw"), ("sub37vint", "synth-square"), ("leadtb", "synth-talkbox"),
+    ("portahorn", "synth-glide"), ("resonator", "synth-resonator"), ("gx1", "synth-sweep"),
+]
+
+
+def build_matrix():
+    n = 0
+    for t1, a in TRACK1:
+        for t2, b in TRACK2:
+            build(a, b, f"{t1}__{t2}")
+            n += 1
+    print(f"OK live-rig matrix: {n} split buttons ({len(TRACK1)}x{len(TRACK2)}) -> duo/")
+
+
 def main(argv):
+    if argv and argv[0] == "--matrix":
+        build_matrix()
+        return
     if len(argv) >= 2:
         a, b = argv[0], argv[1]
         name = argv[2] if len(argv) >= 3 else f"{a}+{b}"

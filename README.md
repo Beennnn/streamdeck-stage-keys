@@ -88,26 +88,34 @@ matches the single icons it's made of and reads at a glance under stage lighting
 bin/gen_duo.py                       # build the default piano+brass set → duo/
 bin/gen_duo.py piano-upright trumpet # one combo, any two src/ instruments
 bin/gen_duo.py ep-rhodes saxophone rhodes+sax   # A=↙  B=↗  [output name]
+bin/gen_duo.py --matrix              # full live-rig set: Track 1 × Track 2 (126)
 ```
 
-Output lands in [`duo/`](duo/) as submit-ready 144 × 144 PNG. Any two of the 83
-instruments compose — pass their `src/` basenames (see [GM-MAP.md](GM-MAP.md)).
+`--matrix` builds every pairing of a two-row sound-select rig — Track 1
+keyboards (bottom) × Track 2 leads (top) — the layout a live keyboardist uses to
+layer a comping voice under a lead. Edit the `TRACK1` / `TRACK2` tables in the
+script to match your own rig. Output lands in [`duo/`](duo/) as submit-ready
+144 × 144 PNG. Any two of the 92 instruments compose — pass their `src/`
+basenames (see [GM-MAP.md](GM-MAP.md)).
 Tip: pair the **upright** piano rather than the grand for the dark tile — its
 wood body stays visible where the near-black grand does not. Positioning per
 instrument is tuned in the script's `ANCHOR` table; add an entry to fine-tune a
 new one.
 
-![Split-view combo buttons](duo/piano+trumpet.png)
+![Split-view combo buttons](duo/piano__trumpet.png)
 
-## What's inside (83 icons)
+## What's inside (92 icons)
 
 Organised around the **General MIDI (GM 1) sound map** — the same 16 banks a
 Roland XP / SC / GS and any GM workstation expose — so it doubles as an XP patch
 → icon guide. 76 icons give every one of the 128 GM programs a dedicated icon
-(only same-instrument variations reuse a drawing), plus **7 modern synth
-categories**. Full program-by-program table: **[GM-MAP.md](GM-MAP.md)**.
+(only same-instrument variations reuse a drawing), plus **modern synth
+categories** and **live-rig extras** (Vibanet, bass flute, a woodwinds section
+and six voiced synth-lead variants) for the parts GM has no program for. Full
+program-by-program table: **[GM-MAP.md](GM-MAP.md)**.
 
-- **Piano** — grand, upright, Rhodes, Wurlitzer, FM/DX, clavinet, harpsichord
+- **Piano** — grand, upright, Rhodes, Wurlitzer, FM/DX, clavinet, Vibanet,
+  harpsichord
 - **Chromatic percussion** — celesta, glockenspiel, music box, vibraphone,
   marimba, xylophone, tubular bells, dulcimer
 - **Organ** — drawbar, combo/rock, church/pipe, accordion, harmonica
@@ -116,8 +124,10 @@ categories**. Full program-by-program table: **[GM-MAP.md](GM-MAP.md)**.
 - **Ensemble** — choir/voice, orchestra hit
 - **Brass** — trumpet, trombone, tuba, french horn, brass section
 - **Reed / pipe** — saxophone, oboe, english horn, bassoon, clarinet, piccolo,
-  flute, recorder, pan flute, blown bottle, shakuhachi, whistle, ocarina
-- **Synth** — lead, pad, brass, bass, FX
+  flute, bass flute, woodwinds section, recorder, pan flute, blown bottle,
+  shakuhachi, whistle, ocarina
+- **Synth** — lead, pad, brass, bass, FX, plus voiced leads: saw, square,
+  talkbox, portamento, resonator, sweep-poly
 - **Ethnic / percussive** — sitar, banjo, shamisen, koto, kalimba, bagpipe,
   tinkle bell, agogo, steel drums, woodblock, taiko, melodic tom, synth drum,
   reverse cymbal

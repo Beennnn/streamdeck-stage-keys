@@ -6,11 +6,19 @@ All notable changes to **Music Instruments for Stage Keys**. Format based on
 
 ## [Unreleased]
 ### Added
+- **9 new base icons** (pack now **92 static**): `vibanet`, `bass-flute`,
+  `woodwinds-section`, and six voiced synth-lead variants — `synth-saw`,
+  `synth-square`, `synth-talkbox`, `synth-glide`, `synth-resonator`,
+  `synth-sweep` — for live-rig voices GM has no program for. Names + tags in
+  `tags.json`. (Animated `-playing` variants for these are still pending.)
 - **Split-view combo buttons** — `bin/gen_duo.py` composes two of the pack's
   full-colour instrument sources onto one 144 × 144 key, divided diagonally
   (A lower-left ↙, B upper-right ↗) over a dark tile. For keys that layer or
   morph two sounds (piano + brass, Rhodes + sax…). Any two `src/` instruments
   compose; default set + per-instrument `ANCHOR` tuning. Output in `duo/`.
+- **`bin/gen_duo.py --matrix`** — builds the full two-row live-rig set
+  (Track 1 keyboards × Track 2 leads = 126 split buttons). `TRACK1`/`TRACK2`
+  tables in the script map a deck to kit sources.
 
 ## [1.1.0] — 2026-07-14
 ### Added

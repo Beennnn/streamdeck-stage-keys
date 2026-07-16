@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+  <!-- saw-lead mono synth (hard-sync lead) -->
+  <rect x="16" y="44" width="112" height="54" rx="7" fill="#26262c"/>
+  <g fill="#3a3a44"><circle cx="30" cy="56" r="4.5"/><circle cx="44" cy="56" r="4.5"/><circle cx="58" cy="56" r="4.5"/></g>
+  <g stroke="#ff6a3d" stroke-width="1.4"><line x1="30" y1="52" x2="30" y2="56"/><line x1="44" y1="60" x2="44" y2="56"/><line x1="58" y1="53" x2="58" y2="56"/></g>
+  <rect x="70" y="50" width="52" height="24" rx="2" fill="#241014"/>
+  <path d="M74 68 L82 54 L82 68 L90 54 L90 68 L98 54 L98 68 L106 54 L106 68 L114 54 L114 68 L118 60" fill="none" stroke="#ff6a3d" stroke-width="2"/>
+  <rect x="16" y="80" width="112" height="16" rx="2" fill="#e6e6e6"/>
+  <g fill="#26262c"><rect x="24" y="80" width="3.5" height="10"/><rect x="34" y="80" width="3.5" height="10"/><rect x="49" y="80" width="3.5" height="10"/><rect x="59" y="80" width="3.5" height="10"/><rect x="69" y="80" width="3.5" height="10"/><rect x="84" y="80" width="3.5" height="10"/><rect x="94" y="80" width="3.5" height="10"/><rect x="109" y="80" width="3.5" height="10"/><rect x="119" y="80" width="3.5" height="10"/></g>
+  <rect x="16" y="82" width="6" height="12" rx="2" fill="#ff6a3d"/>
+</svg>

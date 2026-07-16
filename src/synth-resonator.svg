@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+  <!-- resonant-filter synth: a sharp resonance peak on the screen -->
+  <rect x="16" y="44" width="112" height="54" rx="7" fill="#26262c"/>
+  <g fill="#3a3a44"><circle cx="30" cy="56" r="4.5"/><circle cx="44" cy="56" r="4.5"/><circle cx="58" cy="56" r="4.5"/></g>
+  <g stroke="#b47cf0" stroke-width="1.4"><line x1="30" y1="52" x2="30" y2="56"/><line x1="44" y1="60" x2="44" y2="56"/><line x1="58" y1="59" x2="58" y2="56"/></g>
+  <rect x="70" y="50" width="52" height="24" rx="2" fill="#1c1230"/>
+  <!-- resonance peak (low shelf then sharp Q spike) -->
+  <path d="M74 69 L90 69 Q97 69 99 54 Q101 69 108 70 L118 70" fill="none" stroke="#b47cf0" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="16" y="80" width="112" height="16" rx="2" fill="#e6e6e6"/>
+  <g fill="#26262c"><rect x="24" y="80" width="3.5" height="10"/><rect x="34" y="80" width="3.5" height="10"/><rect x="49" y="80" width="3.5" height="10"/><rect x="59" y="80" width="3.5" height="10"/><rect x="69" y="80" width="3.5" height="10"/><rect x="84" y="80" width="3.5" height="10"/><rect x="94" y="80" width="3.5" height="10"/><rect x="109" y="80" width="3.5" height="10"/><rect x="119" y="80" width="3.5" height="10"/></g>
+  <rect x="16" y="82" width="6" height="12" rx="2" fill="#b47cf0"/>
+</svg>

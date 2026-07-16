@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 144 144">
+  <!-- big poly synth (GX-1 vibe): extra control row + a filter sweep with arrow -->
+  <rect x="14" y="40" width="116" height="58" rx="7" fill="#26262c"/>
+  <!-- two control rows to read "big/poly" -->
+  <g fill="#3a3a44"><circle cx="28" cy="50" r="4"/><circle cx="41" cy="50" r="4"/><circle cx="54" cy="50" r="4"/></g>
+  <g fill="#33333c"><rect x="24" y="60" width="36" height="4" rx="2"/><rect x="24" y="67" width="36" height="4" rx="2"/></g>
+  <g fill="#56c98f"><rect x="24" y="60" width="14" height="4" rx="2"/><rect x="24" y="67" width="22" height="4" rx="2"/></g>
+  <rect x="70" y="46" width="52" height="26" rx="2" fill="#0f2418"/>
+  <!-- filter sweep + arrow -->
+  <path d="M74 66 Q94 66 100 52 Q104 66 118 63" fill="none" stroke="#56c98f" stroke-width="2.2" stroke-linecap="round"/>
+  <path d="M108 58 l10 -3 -3 9" fill="none" stroke="#56c98f" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="14" y="80" width="116" height="16" rx="2" fill="#e6e6e6"/>
+  <g fill="#26262c"><rect x="22" y="80" width="3.5" height="10"/><rect x="32" y="80" width="3.5" height="10"/><rect x="47" y="80" width="3.5" height="10"/><rect x="57" y="80" width="3.5" height="10"/><rect x="67" y="80" width="3.5" height="10"/><rect x="82" y="80" width="3.5" height="10"/><rect x="92" y="80" width="3.5" height="10"/><rect x="107" y="80" width="3.5" height="10"/><rect x="117" y="80" width="3.5" height="10"/></g>
+  <rect x="14" y="82" width="6" height="12" rx="2" fill="#56c98f"/>
+</svg>
