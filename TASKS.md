@@ -15,38 +15,21 @@ v1.0 is Pending review.
     '(playing)' variant for the active state (Stream Deck state 1, via a MIDI
     plugin's feedback). 166 icons total."
 
-## v1.2 (92 base icons + split buttons) — AUTHORED, not yet built/submitted
-9 new full-colour base icons added to `src/` (pack 83 → 92): `vibanet`,
-`bass-flute`, `woodwinds-section`, `synth-{saw,square,talkbox,glide,resonator,
-sweep}`. Tagged in `tags.json`. Plus `bin/gen_duo.py` (split-view combo
-generator: `--matrix` live-rig 126, `--presets` 13 classic consumer-piano
-Dual/Split). Committed locally (3 commits), NOT pushed, NOT built.
-- ☐ Animated `-playing` variants for the 9 new icons → parity (currently 92
-  static vs 83 animated). Via `bin/build-animated.py` (design motion per icon).
-- ☐ Rebuild pack: `bin/build.sh` → regenerates `icons/`, `icons.json`, `dist/`
-  with the 92 icons (currently pre-existing uncommitted `dist/`+`icons.json`
-  changes sit in the tree — reconcile before building).
-- ☐ Bump `manifest.json` Version (→ 1.2.0) + move CHANGELOG `[Unreleased]`
-  → `[1.2.0]` with date.
-- ☐ Regenerate listing media with the new icons: `bin/maker-media.sh`.
-- ☐ Push GitHub `Beennnn/streamdeck-stage-keys` (3 local commits).
-- ☐ Submit via Maker Console once v1.0/v1.1 ordering is resolved (v1.1 is
-  blocked on v1.0 review — decide whether 1.2 supersedes or stacks after 1.1).
-### No split (2026-07-16) — ONE pack, generic-use base
-Decided NOT to split. Size is a non-issue anyway (Elgato: no pack-size/count
-cap, only ≤1 MB/icon; 92+92 ≈ 3.2 MB is smaller than Elgato's own 244-icon
-packs). The update stays a single "Stage Keys" pack, but its base is curated to
-**generic-use icons** — NOT everything from Benoît's personal set.
-- ☐ Curate the update to generic-use icons only. The 9 new base icons all
-  qualify (waveform/character synth leads `synth-{saw,square,talkbox,glide,
-  resonator,sweep}`, `bass-flute`, `woodwinds-section`, `vibanet`) — they're
-  named by generic character, not by his patch names (Sub37/GX-1/etc.), so they
-  stay. Nothing rig-specific goes into the published pack.
-- ☐ Layers & Splits: the 21 `--presets` combos ARE generic-use (consumer
-  piano+synth factory Dual/Split) → candidates for the pack. The 126-combo
-  live-rig matrix (`duo/*__*`) is rig-specific → LOCAL only, never published.
-- 🤔 Decide: include the 21 generic Dual/Split combos IN the single pack, or
-  keep `--presets` a generator-only convenience and publish instruments only?
+## v1.2 (226 icons: 92 instruments + 21 combos, static+animated) — BUILT, pending submit
+ONE pack (no split — size is a non-issue: Elgato has no pack cap, only ≤1 MB/
+icon; ours ~4 MB). 9 new generic-use instruments (vibanet, bass-flute,
+woodwinds-section, 6 voiced synth leads) + 21 generic Dual/Split combos IN the
+pack, all static + animated. `manifest` 1.2.0, `validate` clean, `dist/` +
+media rebuilt. The 126-combo live-rig matrix (`duo/*__*`) stays LOCAL, unpublished.
+- ☐ Push GitHub `Beennnn/streamdeck-stage-keys` (local commits ahead).
+- ☐ Submit via Maker Console — BLOCKED: "Create version" is disabled while a
+  prior version is *Pending review*. Check v1.0/v1.1 status first; 1.2 supersedes
+  1.1 (1.1 was never submitted), so submit 1.2 once v1.0 clears review.
+  - Product → Versions → Create version **1.2.0**
+  - Upload `dist/com.beennnn.stagekeys.streamDeckIconPack` (226 icons)
+  - Media from `maker-media/`: thumbnail-1920x960 + 5 previews + gallery
+    (incl. gallery-animated.mp4). AI-content disclosure = YES.
+  - Release notes: see the v1.2 block in this session / README-side draft.
 
 ## Build
 - `bin/build.sh` → static+animated pack · `bin/build-animated.py` → animated variants + showcase · `bin/maker-media.sh` → listing media incl. gallery-animated.mp4. All via the sdicons toolkit.
