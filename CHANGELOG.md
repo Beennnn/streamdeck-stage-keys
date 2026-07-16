@@ -9,6 +9,10 @@ All notable changes to **Music Instruments for Stage Keys**. Format based on
 - **Split-view combo keys ship in the pack** — 21 Dual/Layer & Split combos as
   static + animated icons (each half animates inside the fixed tile). Pack now
   **226 icons** (113 static + 113 animated): 92 instruments + 21 combos.
+### Changed
+- **Animated icons are now GIF** (`<slug>-playing.gif`), not WebP. Elgato's
+  review found PIL-optimised animated WebP would not play on keys; GIF is the
+  format Stream Deck plays reliably (per-frame transparency preserved).
 - Full build orchestration `bin/build-all.sh` (render → animate instruments →
   animate combos → merge → meta → validate → package) + `bin/build-combos-
   animated.py` (composites two moving halves into a split tile).

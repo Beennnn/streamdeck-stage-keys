@@ -77,7 +77,7 @@ def main():
             sb, ob = place(fb[k], gd.TARGET_TR, anc_b); tile.paste(sb, ob, sb)
             sa, oa = place(fa[k], gd.TARGET_BL, anc_a); tile.paste(sa, oa, sa)
             frames.append(tile)
-        ba.save_animated(frames, outdir / f"{name}.webp", ba.FPS)
+        ba.save_animated(frames, outdir / f"{name}.gif", ba.FPS)
         n += 1
     print(f"wrote {n} animated combo tiles -> animated/icons/*.webp")
 

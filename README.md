@@ -58,7 +58,8 @@ this pack.)*
 
 ## Animated icons — light up the active sound
 
-Instruments also come as **animated** variants (looping 144×144 WEBP): the
+Instruments also come as **animated** variants (looping 144×144 GIF — the
+format Stream Deck reliably plays on keys): the
 mellotron's reels turn, the vocoder's bars dance, a synth's waveform scrolls.
 The idea: **an icon animates when its sound is active**. On a Stream Deck, wire
 **state 0 = the static icon** (idle) and **state 1 = the animated icon**

@@ -19,18 +19,22 @@ else echo "sdicons toolkit not found (clone github.com/Beennnn/stream-deck-icons
 echo "→ render (static, src/*.svg → icons/*.png)"
 "$SD" render "$ROOT/src" "$ROOT"
 
-echo "→ animate instruments (→ animated/icons/*.webp + showcase)"
+echo "→ animate instruments (→ animated/icons/*.gif + showcase)"
+# GIF, not WebP: Elgato's reviewer could not get PIL-optimised (partial-frame)
+# animated WebP to play on keys; GIF is the format that works on Stream Deck
+# (see the published WLED Effects pack, 216 GIFs). Clean stale outputs first.
+rm -f animated/icons/*.gif animated/icons/*.webp
 python3 bin/build-animated.py
 
 echo "→ animate combos (internal-motion split tiles)"
 python3 bin/build-combos-animated.py
 
-echo "→ merge animated webp into icons/ as <slug>-playing.webp"
-# Convention: static = <slug>.png, animated (active state) = <slug>-playing.webp.
-# Wipe old animated first so a removed source can't leave a stale -playing file.
-rm -f icons/*-playing.webp
-for f in animated/icons/*.webp; do
-  cp "$f" "icons/$(basename "$f" .webp)-playing.webp"
+echo "→ merge animated gif into icons/ as <slug>-playing.gif"
+# Convention: static = <slug>.png, animated (active state) = <slug>-playing.gif.
+# Wipe any old animated (gif OR the previous webp) so nothing stale lingers.
+rm -f icons/*-playing.webp icons/*-playing.gif
+for f in animated/icons/*.gif; do
+  cp "$f" "icons/$(basename "$f" .gif)-playing.gif"
 done
 
 echo "→ meta (icons.json, static + animated)"

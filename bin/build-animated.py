@@ -216,7 +216,7 @@ def main():
         if frames is None:
             continue
         allframes[slug] = frames
-        save_animated(frames, OUT / "icons" / f"{slug}.webp", FPS)
+        save_animated(frames, OUT / "icons" / f"{slug}.gif", FPS)
 
     order = [s for s in order if s in allframes]
     cols = 10; cell = 108; pad = 6
