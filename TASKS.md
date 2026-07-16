@@ -15,7 +15,15 @@ v1.0 is Pending review.
     '(playing)' variant for the active state (Stream Deck state 1, via a MIDI
     plugin's feedback). 166 icons total."
 
-## v1.2 (226 icons: 92 instruments + 21 combos, static+animated) — BUILT, pending submit
+## v1.2 — REJECTED (WebP animation), FIXED as GIF, pending RESUBMIT
+Elgato rejected 1.2 (2026-07-16): the WebP animated icons wouldn't play on keys.
+Rebuilt with animated icons as `<slug>-playing.gif` (proven format; per-frame
+transparency preserved). Pack valid, pushed. **Resubmit the revised 1.2**:
+Products → Stage Keys → Versions → 1.2 (Rejected) → re-upload
+`dist/com.beennnn.stagekeys.streamDeckIconPack` → resubmit for review. Also mark
+the product "animated" if asked. (Media/previews already fixed separately.)
+
+## v1.2 (226 icons: 92 instruments + 21 combos, static+animated) — BUILT (superseded by GIF rebuild above)
 ONE pack (no split — size is a non-issue: Elgato has no pack cap, only ≤1 MB/
 icon; ours ~4 MB). 9 new generic-use instruments (vibanet, bass-flute,
 woodwinds-section, 6 voiced synth leads) + 21 generic Dual/Split combos IN the
