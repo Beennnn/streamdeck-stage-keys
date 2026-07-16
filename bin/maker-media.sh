@@ -8,6 +8,6 @@ ROOT="$(git rev-parse --show-toplevel)"
 SD="${SDICONS:-$ROOT/../stream-deck-icons/bin/sdicons}"
 command -v sdicons >/dev/null 2>&1 && SD="sdicons"
 "$SD" maker-media "$ROOT" --out-dir "$ROOT/maker-media" \
-  --subtitle "83 full-colour icons · complete General MIDI / XP + modern synths" \
-  --previews piano-grand,ep-rhodes,organ-tonewheel,saxophone,drum-machine \
+  --subtitle "92 full-colour instruments + split Layer/Split combos · GM/XP + modern synths" \
+  --previews piano-grand,ep-rhodes,saxophone,synth-saw,layer_piano-strings \
   --animated "$ROOT/animated/icons"   # → gallery-animated.mp4 for the listing

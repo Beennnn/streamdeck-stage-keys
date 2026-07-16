@@ -65,15 +65,17 @@ The idea: **an icon animates when its sound is active**. On a Stream Deck, wire
 (playing), driven by your MIDI plugin's state feedback — so the sound you're
 currently on comes alive while the rest stay calm.
 
-![Animated Stage Keys — all 83 in motion](animated-showcase.webp)
+![Animated Stage Keys — all 92 in motion](animated-showcase.webp)
 
-**All 83 in motion above** (transparent background). The motion reads as **how
+**All 92 in motion above** (transparent background). The motion reads as **how
 the instrument is played**: struck instruments bounce, held winds sway, plucked
 strings wobble, the accordion's bellows stretch, a cymbal spins — and the
 electronic ones get **bespoke internal motion** (mellotron reels, vocoder &
-synth waveforms, drum-machine LEDs, arpeggio steps, vibraphone mallets).
-Regenerate with `bin/build-animated.py` (uses `sdicons animate`); the animated
-Marketplace gallery comes from `bin/maker-media.sh` (`gallery-animated.mp4`).
+synth waveforms, drum-machine LEDs, arpeggio steps, vibraphone mallets). The
+split combo keys animate too — each half moves inside the fixed tile.
+Regenerate with `bin/build-all.sh` (static + animated + combos, end to end);
+the animated Marketplace gallery comes from `bin/maker-media.sh`
+(`gallery-animated.mp4`).
 
 ## Split-view combo buttons — two instruments on one key
 

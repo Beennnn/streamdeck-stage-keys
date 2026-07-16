@@ -1720,5 +1720,599 @@
             "sweep",
             "filter"
         ]
+    },
+    "layer_piano-strings": {
+        "name": "Piano + Strings",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "piano",
+            "strings"
+        ]
+    },
+    "layer_piano-choir": {
+        "name": "Piano + Choir",
+        "tags": [
+            "choir",
+            "combo",
+            "dual",
+            "layer",
+            "piano",
+            "voice"
+        ]
+    },
+    "layer_piano-pad": {
+        "name": "Piano + Synth Pad",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "piano",
+            "synth"
+        ]
+    },
+    "layer_piano-epiano": {
+        "name": "Piano + E.Piano",
+        "tags": [
+            "combo",
+            "dual",
+            "electric piano",
+            "layer",
+            "piano",
+            "rhodes"
+        ]
+    },
+    "layer_epiano-strings": {
+        "name": "E.Piano + Strings",
+        "tags": [
+            "combo",
+            "dual",
+            "electric piano",
+            "layer",
+            "rhodes",
+            "strings"
+        ]
+    },
+    "layer_harpsi-strings": {
+        "name": "Harpsichord + Strings",
+        "tags": [
+            "baroque",
+            "combo",
+            "dual",
+            "harpsichord",
+            "layer",
+            "strings"
+        ]
+    },
+    "layer_piano-vibes": {
+        "name": "Piano + Vibraphone",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "piano",
+            "vibes",
+            "vibraphone"
+        ]
+    },
+    "layer_piano-harp": {
+        "name": "Piano + Harp",
+        "tags": [
+            "combo",
+            "dual",
+            "harp",
+            "layer",
+            "piano"
+        ]
+    },
+    "layer_organ-strings": {
+        "name": "Organ + Strings",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "organ",
+            "strings"
+        ]
+    },
+    "layer_strings-choir": {
+        "name": "Strings + Choir",
+        "tags": [
+            "choir",
+            "combo",
+            "dual",
+            "layer",
+            "strings",
+            "voice"
+        ]
+    },
+    "layer_strings-brass": {
+        "name": "Strings + Brass",
+        "tags": [
+            "brass",
+            "combo",
+            "dual",
+            "layer",
+            "orchestra",
+            "strings"
+        ]
+    },
+    "layer_lead-pad": {
+        "name": "Synth Lead + Pad",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "pad",
+            "synth"
+        ]
+    },
+    "layer_saw-square": {
+        "name": "Saw + Square Lead",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "saw",
+            "square",
+            "synth"
+        ]
+    },
+    "layer_synthbrass-lead": {
+        "name": "Synth Brass + Lead",
+        "tags": [
+            "brass",
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "synth"
+        ]
+    },
+    "layer_strings-pad": {
+        "name": "Strings + Synth Pad",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "strings",
+            "synth"
+        ]
+    },
+    "split_acbass-piano": {
+        "name": "Ac.Bass / Piano",
+        "tags": [
+            "acoustic bass",
+            "bass",
+            "combo",
+            "jazz",
+            "piano",
+            "split"
+        ]
+    },
+    "split_bass-epiano": {
+        "name": "Bass / E.Piano",
+        "tags": [
+            "bass",
+            "combo",
+            "electric bass",
+            "electric piano",
+            "rhodes",
+            "split"
+        ]
+    },
+    "split_bass-organ": {
+        "name": "Bass / Organ",
+        "tags": [
+            "bass",
+            "combo",
+            "electric bass",
+            "organ",
+            "split"
+        ]
+    },
+    "split_synthbass-lead": {
+        "name": "Synth Bass / Lead",
+        "tags": [
+            "bass",
+            "combo",
+            "edm",
+            "lead",
+            "split",
+            "synth"
+        ]
+    },
+    "split_bass-lead": {
+        "name": "Bass / Lead",
+        "tags": [
+            "bass",
+            "combo",
+            "lead",
+            "split",
+            "synth"
+        ]
+    },
+    "split_synthbass-piano": {
+        "name": "Synth Bass / Piano",
+        "tags": [
+            "bass",
+            "combo",
+            "piano",
+            "split",
+            "synth"
+        ]
+    },
+    "layer_piano-strings-playing": {
+        "name": "Piano + Strings (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "piano",
+            "strings"
+        ]
+    },
+    "layer_piano-choir-playing": {
+        "name": "Piano + Choir (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "choir",
+            "combo",
+            "dual",
+            "layer",
+            "piano",
+            "voice"
+        ]
+    },
+    "layer_piano-pad-playing": {
+        "name": "Piano + Synth Pad (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "piano",
+            "synth"
+        ]
+    },
+    "layer_piano-epiano-playing": {
+        "name": "Piano + E.Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "electric piano",
+            "layer",
+            "piano",
+            "rhodes"
+        ]
+    },
+    "layer_epiano-strings-playing": {
+        "name": "E.Piano + Strings (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "electric piano",
+            "layer",
+            "rhodes",
+            "strings"
+        ]
+    },
+    "layer_harpsi-strings-playing": {
+        "name": "Harpsichord + Strings (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "baroque",
+            "combo",
+            "dual",
+            "harpsichord",
+            "layer",
+            "strings"
+        ]
+    },
+    "layer_piano-vibes-playing": {
+        "name": "Piano + Vibraphone (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "piano",
+            "vibes",
+            "vibraphone"
+        ]
+    },
+    "layer_piano-harp-playing": {
+        "name": "Piano + Harp (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "harp",
+            "layer",
+            "piano"
+        ]
+    },
+    "layer_organ-strings-playing": {
+        "name": "Organ + Strings (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "organ",
+            "strings"
+        ]
+    },
+    "layer_strings-choir-playing": {
+        "name": "Strings + Choir (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "choir",
+            "combo",
+            "dual",
+            "layer",
+            "strings",
+            "voice"
+        ]
+    },
+    "layer_strings-brass-playing": {
+        "name": "Strings + Brass (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "combo",
+            "dual",
+            "layer",
+            "orchestra",
+            "strings"
+        ]
+    },
+    "layer_lead-pad-playing": {
+        "name": "Synth Lead + Pad (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "pad",
+            "synth"
+        ]
+    },
+    "layer_saw-square-playing": {
+        "name": "Saw + Square Lead (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "saw",
+            "square",
+            "synth"
+        ]
+    },
+    "layer_synthbrass-lead-playing": {
+        "name": "Synth Brass + Lead (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "synth"
+        ]
+    },
+    "layer_strings-pad-playing": {
+        "name": "Strings + Synth Pad (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "strings",
+            "synth"
+        ]
+    },
+    "split_acbass-piano-playing": {
+        "name": "Ac.Bass / Piano (playing)",
+        "tags": [
+            "acoustic bass",
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "jazz",
+            "piano",
+            "split"
+        ]
+    },
+    "split_bass-epiano-playing": {
+        "name": "Bass / E.Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "electric bass",
+            "electric piano",
+            "rhodes",
+            "split"
+        ]
+    },
+    "split_bass-organ-playing": {
+        "name": "Bass / Organ (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "electric bass",
+            "organ",
+            "split"
+        ]
+    },
+    "split_synthbass-lead-playing": {
+        "name": "Synth Bass / Lead (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "edm",
+            "lead",
+            "split",
+            "synth"
+        ]
+    },
+    "split_bass-lead-playing": {
+        "name": "Bass / Lead (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "lead",
+            "split",
+            "synth"
+        ]
+    },
+    "split_synthbass-piano-playing": {
+        "name": "Synth Bass / Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "piano",
+            "split",
+            "synth"
+        ]
+    },
+    "vibanet-playing": {
+        "name": "Vibanet (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "clavinet",
+            "electric piano",
+            "keys",
+            "vibraphone"
+        ]
+    },
+    "bass-flute-playing": {
+        "name": "Bass Flute (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "flute",
+            "gm",
+            "woodwind"
+        ]
+    },
+    "woodwinds-section-playing": {
+        "name": "Woodwinds Section (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ensemble",
+            "section",
+            "woodwind"
+        ]
+    },
+    "synth-saw-playing": {
+        "name": "Saw Lead Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "lead",
+            "mono",
+            "sawtooth",
+            "synth"
+        ]
+    },
+    "synth-square-playing": {
+        "name": "Square Lead Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "lead",
+            "square",
+            "synth",
+            "vintage"
+        ]
+    },
+    "synth-talkbox-playing": {
+        "name": "Talkbox Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "lead",
+            "synth",
+            "talkbox",
+            "voice"
+        ]
+    },
+    "synth-glide-playing": {
+        "name": "Portamento Lead Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "glide",
+            "lead",
+            "portamento",
+            "synth"
+        ]
+    },
+    "synth-resonator-playing": {
+        "name": "Resonator Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "filter",
+            "groove",
+            "resonant",
+            "synth"
+        ]
+    },
+    "synth-sweep-playing": {
+        "name": "Sweep Poly Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "filter",
+            "poly",
+            "sweep",
+            "synth"
+        ]
     }
 }

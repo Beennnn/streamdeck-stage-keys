@@ -4,8 +4,14 @@ All notable changes to **Music Instruments for Stage Keys**. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versions follow the pack's
 `manifest.json` Version.
 
-## [Unreleased]
+## [1.2.0] — 2026-07-16
 ### Added
+- **Split-view combo keys ship in the pack** — 21 Dual/Layer & Split combos as
+  static + animated icons (each half animates inside the fixed tile). Pack now
+  **226 icons** (113 static + 113 animated): 92 instruments + 21 combos.
+- Full build orchestration `bin/build-all.sh` (render → animate instruments →
+  animate combos → merge → meta → validate → package) + `bin/build-combos-
+  animated.py` (composites two moving halves into a split tile).
 - **9 new base icons** (pack now **92 static**): `vibanet`, `bass-flute`,
   `woodwinds-section`, and six voiced synth-lead variants — `synth-saw`,
   `synth-square`, `synth-talkbox`, `synth-glide`, `synth-resonator`,

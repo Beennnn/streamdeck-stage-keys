@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144"><rect width="144" height="144" rx="22" fill="#13151b"/><path d="M14,20 L128,128" stroke="#3b3b46" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/><g transform="translate(98,46) scale(0.48) translate(-72,-70)"><rect x="14" y="46" width="116" height="34" rx="4" fill="#2a2436"/>
+  <g fill="#443a56"><circle cx="24" cy="54" r="4"/><circle cx="36" cy="54" r="4"/><circle cx="48" cy="54" r="4"/></g>
+  <rect x="70" y="50" width="52" height="20" rx="2" fill="#231633"/>
+  <path d="M74 60 q10 -12 20 0 t20 0" fill="none" stroke="#b47cf0" stroke-width="3" stroke-linecap="round"/>
+  <path d="M74 66 q10 -8 20 0 t20 0" fill="none" stroke="#8a5cc0" stroke-width="2" stroke-linecap="round" opacity="0.7"/>
+  <rect x="14" y="78" width="116" height="16" rx="2" fill="#e6e6e6"/>
+  <g fill="#2a2436"><rect x="22" y="78" width="3.5" height="10"/><rect x="32" y="78" width="3.5" height="10"/><rect x="47" y="78" width="3.5" height="10"/><rect x="57" y="78" width="3.5" height="10"/><rect x="67" y="78" width="3.5" height="10"/><rect x="82" y="78" width="3.5" height="10"/><rect x="92" y="78" width="3.5" height="10"/><rect x="107" y="78" width="3.5" height="10"/><rect x="117" y="78" width="3.5" height="10"/></g>
+  <rect x="16" y="80" width="6" height="12" rx="2" fill="#b47cf0"/></g><g transform="translate(48,98) scale(0.5) translate(-72,-72)"><!-- two violins overlapping = section -->
+  <g transform="rotate(20 60 74) translate(-14 6)" opacity="0.85">
+    <rect x="55" y="30" width="8" height="40" rx="2" fill="#4a2a12"/>
+    <path d="M59 62 C 74 62 77 74 74 82 C 72 88 74 92 76 98 C 79 108 73 120 59 120 C 45 120 39 108 42 98 C 44 92 46 88 44 82 C 41 74 44 62 59 62 Z" fill="#7a3f18"/>
+  </g>
+  <g transform="rotate(20 84 74)">
+    <rect x="80" y="24" width="9" height="44" rx="2" fill="#5a3418"/>
+    <path d="M84 60 C 100 60 103 73 100 82 C 98 88 100 93 102 99 C 105 110 99 124 84 124 C 69 124 63 110 66 99 C 68 93 70 88 68 82 C 65 73 68 60 84 60 Z" fill="#8a4a1e"/>
+    <path d="M84 66 C 97 66 99 76 96 83 C 94 89 96 94 98 99 C 101 108 96 119 84 119 C 72 119 67 108 70 99 C 72 94 74 89 72 83 C 69 76 71 66 84 66 Z" fill="#a55d28"/>
+    <path d="M77 90 q-2 7 1 13" fill="none" stroke="#3a2010" stroke-width="2" stroke-linecap="round"/>
+    <path d="M91 90 q2 7 -1 13" fill="none" stroke="#3a2010" stroke-width="2" stroke-linecap="round"/>
+  </g></g></svg>

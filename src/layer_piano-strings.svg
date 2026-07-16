@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144"><rect width="144" height="144" rx="22" fill="#13151b"/><path d="M14,20 L128,128" stroke="#3b3b46" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/><g transform="translate(98,46) scale(0.5) translate(-72,-72)"><!-- two violins overlapping = section -->
+  <g transform="rotate(20 60 74) translate(-14 6)" opacity="0.85">
+    <rect x="55" y="30" width="8" height="40" rx="2" fill="#4a2a12"/>
+    <path d="M59 62 C 74 62 77 74 74 82 C 72 88 74 92 76 98 C 79 108 73 120 59 120 C 45 120 39 108 42 98 C 44 92 46 88 44 82 C 41 74 44 62 59 62 Z" fill="#7a3f18"/>
+  </g>
+  <g transform="rotate(20 84 74)">
+    <rect x="80" y="24" width="9" height="44" rx="2" fill="#5a3418"/>
+    <path d="M84 60 C 100 60 103 73 100 82 C 98 88 100 93 102 99 C 105 110 99 124 84 124 C 69 124 63 110 66 99 C 68 93 70 88 68 82 C 65 73 68 60 84 60 Z" fill="#8a4a1e"/>
+    <path d="M84 66 C 97 66 99 76 96 83 C 94 89 96 94 98 99 C 101 108 96 119 84 119 C 72 119 67 108 70 99 C 72 94 74 89 72 83 C 69 76 71 66 84 66 Z" fill="#a55d28"/>
+    <path d="M77 90 q-2 7 1 13" fill="none" stroke="#3a2010" stroke-width="2" stroke-linecap="round"/>
+    <path d="M91 90 q2 7 -1 13" fill="none" stroke="#3a2010" stroke-width="2" stroke-linecap="round"/>
+  </g></g><g transform="translate(48,98) scale(0.5) translate(-72,-74)"><rect x="26" y="24" width="92" height="14" rx="4" fill="#7a4a2a"/>
+  <rect x="30" y="34" width="84" height="76" rx="4" fill="#5a3418"/>
+  <rect x="30" y="34" width="84" height="76" rx="4" fill="none"/>
+  <rect x="38" y="42" width="30" height="28" rx="2" fill="#3e2411"/>
+  <rect x="76" y="42" width="30" height="28" rx="2" fill="#3e2411"/>
+  <rect x="30" y="88" width="84" height="22" rx="2" fill="#f6f6f1"/>
+  <g fill="#17130f"><rect x="38" y="88" width="4" height="13"/><rect x="47" y="88" width="4" height="13"/><rect x="61" y="88" width="4" height="13"/><rect x="70" y="88" width="4" height="13"/><rect x="79" y="88" width="4" height="13"/><rect x="93" y="88" width="4" height="13"/><rect x="102" y="88" width="4" height="13"/></g>
+  <rect x="34" y="110" width="76" height="8" rx="2" fill="#4a2a12"/>
+  <rect x="44" y="118" width="10" height="8" fill="#2e1a0c"/><rect x="90" y="118" width="10" height="8" fill="#2e1a0c"/></g></svg>

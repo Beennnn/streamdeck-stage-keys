@@ -66,6 +66,10 @@ def fx_wave(t, c):
     dx = -18*t
     return (f'<path transform="translate({dx:.2f} 0)" d="M52 60 q9 -10 18 0 t18 0 t18 0 t18 0 t18 0" fill="none" stroke="{c}" stroke-width="2.5"/>'
             f'<path transform="translate({-dx:.2f} 0)" d="M52 62 q9 8 18 0 t18 0 t18 0 t18 0 t18 0" fill="none" stroke="#3ee0c8" stroke-width="2" opacity="0.6"/>')
+def saw_wave(t, c):  # scrolling sawtooth (hard lead)
+    dx = -20*t
+    return (f'<path transform="translate({dx:.2f} 0)" d="M48 66 L58 54 L58 66 L68 54 L68 66 L78 54 L78 66 L88 54 L88 66 L98 54 L98 66 L108 54 L108 66 L118 54 L118 66 L128 54" '
+            f'fill="none" stroke="{c}" stroke-width="2.2"/>')
 
 def vocoder(t):
     bars = ""
@@ -122,6 +126,13 @@ BESPOKE = {
     "synth-bass": synth("#20262e", "#0e1a26", deep_wave, "#3a86e0"),
     "synth-brass": synth("#2e2822", "#2e2408", square_wave, "#f0b93a"),
     "synth-fx": synth("#241a36", "#150e26", fx_wave, "#b47cf0"),
+    # v1.2 voiced synth leads — screen tint + accent match their static SVGs
+    "synth-saw": synth("#26262c", "#241014", saw_wave, "#ff6a3d"),
+    "synth-square": synth("#26262c", "#241f10", square_wave, "#f2c14e"),
+    "synth-talkbox": synth("#26262c", "#0f2422", soft_wave, "#34d8c4"),
+    "synth-glide": synth("#26262c", "#101d2a", soft_wave, "#6ab0f0"),
+    "synth-resonator": synth("#26262c", "#1c1230", fx_wave, "#b47cf0"),
+    "synth-sweep": synth("#26262c", "#0f2418", deep_wave, "#56c98f"),
 }
 
 # ------------------------------------------------------- gesture motions (PIL)
@@ -154,10 +165,11 @@ FAMILY = {}
 def _fam(names, g):
     for n in names.split():
         FAMILY[n] = g
-_fam("piano-grand piano-upright ep-rhodes ep-wurlitzer ep-fm clavinet celesta glockenspiel "
+_fam("piano-grand piano-upright ep-rhodes ep-wurlitzer ep-fm clavinet vibanet celesta glockenspiel "
      "marimba xylophone dulcimer timpani agogo steel-drums woodblock taiko melodic-tom "
      "synth-drum drum-kit sampler music-box synthesizer tinkle-bell kalimba", "bounce")
-_fam("saxophone oboe english-horn bassoon clarinet piccolo flute recorder shakuhachi whistle "
+_fam("saxophone oboe english-horn bassoon clarinet piccolo flute bass-flute woodwinds-section "
+     "recorder shakuhachi whistle "
      "trumpet trombone tuba french-horn brass-section bagpipe harmonica tubular-bells "
      "organ-tonewheel organ-combo organ-pipe pan-flute blown-bottle ocarina choir "
      "breath-noise seashore bird-tweet", "sway")
@@ -169,35 +181,60 @@ _fam("orchestra-hit gunshot telephone applause", "flash")
 
 # --------------------------------------------------------------------- build
 N, FPS = 24, 12
-OUT = Path("animated"); (OUT/"icons").mkdir(parents=True, exist_ok=True)
-order = list(json.load(open("tags.json")))
-allframes = {}
-for slug in order:
-    if slug in BESPOKE:
-        frames = render_phases(BESPOKE[slug], N)
-    else:
-        png = Path("icons")/f"{slug}.png"
-        if not png.exists():
-            continue
-        base = Image.open(png).convert("RGBA")
-        g = GESTURE[FAMILY.get(slug, "bounce")]
-        frames = [g(base, k/N) for k in range(N)]
-    allframes[slug] = frames
-    save_animated(frames, OUT/"icons"/f"{slug}.webp", FPS)
+OUT = Path("animated")
 
-order = [s for s in order if s in allframes]
-cols = 10; cell = 108; pad = 6
-rows = (len(order)+cols-1)//cols
-W = cols*cell+(cols+1)*pad; Hh = rows*cell+(rows+1)*pad
-# Showcase on a TRANSPARENT background (no tiles) — the icons themselves are
-# transparent, so the README image lets the page show through behind them.
-grid = []
-for k in range(N):
-    im = Image.new("RGBA", (W, Hh), (0, 0, 0, 0))
-    for i, slug in enumerate(order):
-        r, c = divmod(i, cols); x = pad+c*(cell+pad); y = pad+r*(cell+pad)
-        im.alpha_composite(allframes[slug][k].resize((cell-8, cell-8)), (x+4, y+4))
-    grid.append(im)
-grid[0].save("animated-showcase.webp", format="WEBP", save_all=True,
-             append_images=grid[1:], duration=int(1000/FPS), loop=0, quality=80, method=6)
-print(f"wrote animated-showcase.webp ({len(order)} icons) + animated/icons/*.webp")
+
+def _is_combo(slug):
+    # Split/layer combo tiles are opaque — a whole-tile gesture would tear.
+    # They get true internal motion from bin/build-combos-animated.py instead.
+    return slug.startswith("layer_") or slug.startswith("split_")
+
+
+def frames_for(slug, n=N):
+    """N transparent 144x144 RGBA frames for one instrument slug, or None.
+
+    Reused by build-combos-animated.py to composite each half of a split tile.
+    """
+    if slug in BESPOKE:
+        return render_phases(BESPOKE[slug], n)
+    png = Path("icons") / f"{slug}.png"
+    if not png.exists():
+        return None
+    base = Image.open(png).convert("RGBA")
+    g = GESTURE[FAMILY.get(slug, "bounce")]
+    return [g(base, k / n) for k in range(n)]
+
+
+def main():
+    (OUT / "icons").mkdir(parents=True, exist_ok=True)
+    # Instruments only: skip -playing metadata rows and combo tiles.
+    order = [s for s in json.load(open("tags.json"))
+             if not s.endswith("-playing") and not _is_combo(s)]
+    allframes = {}
+    for slug in order:
+        frames = frames_for(slug)
+        if frames is None:
+            continue
+        allframes[slug] = frames
+        save_animated(frames, OUT / "icons" / f"{slug}.webp", FPS)
+
+    order = [s for s in order if s in allframes]
+    cols = 10; cell = 108; pad = 6
+    rows = (len(order)+cols-1)//cols
+    W = cols*cell+(cols+1)*pad; Hh = rows*cell+(rows+1)*pad
+    # Showcase on a TRANSPARENT background (no tiles) — the icons themselves are
+    # transparent, so the README image lets the page show through behind them.
+    grid = []
+    for k in range(N):
+        im = Image.new("RGBA", (W, Hh), (0, 0, 0, 0))
+        for i, slug in enumerate(order):
+            r, c = divmod(i, cols); x = pad+c*(cell+pad); y = pad+r*(cell+pad)
+            im.alpha_composite(allframes[slug][k].resize((cell-8, cell-8)), (x+4, y+4))
+        grid.append(im)
+    grid[0].save("animated-showcase.webp", format="WEBP", save_all=True,
+                 append_images=grid[1:], duration=int(1000/FPS), loop=0, quality=80, method=6)
+    print(f"wrote animated-showcase.webp ({len(order)} icons) + animated/icons/*.webp")
+
+
+if __name__ == "__main__":
+    main()

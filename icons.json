@@ -1,5 +1,17 @@
 [
     {
+        "path": "accordion-playing.webp",
+        "name": "Accordion (playing)",
+        "tags": [
+            "accordion",
+            "active",
+            "animated",
+            "gm",
+            "reed",
+            "tango"
+        ]
+    },
+    {
         "path": "accordion.png",
         "name": "Accordion",
         "tags": [
@@ -7,6 +19,18 @@
             "accordion",
             "reed",
             "tango"
+        ]
+    },
+    {
+        "path": "agogo-playing.webp",
+        "name": "Agogo (playing)",
+        "tags": [
+            "active",
+            "agogo",
+            "animated",
+            "gm",
+            "latin",
+            "percussive"
         ]
     },
     {
@@ -20,6 +44,18 @@
         ]
     },
     {
+        "path": "applause-playing.webp",
+        "name": "Applause (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "applause",
+            "crowd",
+            "gm",
+            "sfx"
+        ]
+    },
+    {
         "path": "applause.png",
         "name": "Applause",
         "tags": [
@@ -27,6 +63,18 @@
             "sfx",
             "applause",
             "crowd"
+        ]
+    },
+    {
+        "path": "arpeggio-playing.webp",
+        "name": "Arpeggio / Seq (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "arp",
+            "arpeggio",
+            "motion",
+            "sequence"
         ]
     },
     {
@@ -40,6 +88,18 @@
         ]
     },
     {
+        "path": "bagpipe-playing.webp",
+        "name": "Bagpipe (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bagpipe",
+            "ethnic",
+            "gm",
+            "world"
+        ]
+    },
+    {
         "path": "bagpipe.png",
         "name": "Bagpipe",
         "tags": [
@@ -50,6 +110,18 @@
         ]
     },
     {
+        "path": "banjo-playing.webp",
+        "name": "Banjo (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "banjo",
+            "ethnic",
+            "folk",
+            "gm"
+        ]
+    },
+    {
         "path": "banjo.png",
         "name": "Banjo",
         "tags": [
@@ -57,6 +129,21 @@
             "ethnic",
             "banjo",
             "folk"
+        ]
+    },
+    {
+        "path": "bass-electric-playing.webp",
+        "name": "Electric Bass (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "electric",
+            "fingered",
+            "fretless",
+            "gm",
+            "picked",
+            "slap"
         ]
     },
     {
@@ -73,12 +160,57 @@
         ]
     },
     {
+        "path": "bass-flute-playing.webp",
+        "name": "Bass Flute (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "flute",
+            "gm",
+            "woodwind"
+        ]
+    },
+    {
+        "path": "bass-flute.png",
+        "name": "Bass Flute",
+        "tags": [
+            "gm",
+            "woodwind",
+            "flute",
+            "bass"
+        ]
+    },
+    {
+        "path": "bassoon-playing.webp",
+        "name": "Bassoon (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bassoon",
+            "gm",
+            "reed"
+        ]
+    },
+    {
         "path": "bassoon.png",
         "name": "Bassoon",
         "tags": [
             "gm",
             "reed",
             "bassoon"
+        ]
+    },
+    {
+        "path": "bird-tweet-playing.webp",
+        "name": "Bird Tweet (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bird",
+            "gm",
+            "nature",
+            "sfx"
         ]
     },
     {
@@ -92,12 +224,35 @@
         ]
     },
     {
+        "path": "blown-bottle-playing.webp",
+        "name": "Blown Bottle (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "blown bottle",
+            "gm",
+            "pipe"
+        ]
+    },
+    {
         "path": "blown-bottle.png",
         "name": "Blown Bottle",
         "tags": [
             "gm",
             "pipe",
             "blown bottle"
+        ]
+    },
+    {
+        "path": "brass-section-playing.webp",
+        "name": "Brass Section (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "gm",
+            "section",
+            "synth brass"
         ]
     },
     {
@@ -111,12 +266,35 @@
         ]
     },
     {
+        "path": "breath-noise-playing.webp",
+        "name": "Breath Noise (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "breath",
+            "gm",
+            "sfx"
+        ]
+    },
+    {
         "path": "breath-noise.png",
         "name": "Breath Noise",
         "tags": [
             "gm",
             "sfx",
             "breath"
+        ]
+    },
+    {
+        "path": "celesta-playing.webp",
+        "name": "Celesta (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bells",
+            "celesta",
+            "gm",
+            "keys"
         ]
     },
     {
@@ -130,12 +308,36 @@
         ]
     },
     {
+        "path": "cello-playing.webp",
+        "name": "Cello (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "cello",
+            "gm",
+            "strings"
+        ]
+    },
+    {
         "path": "cello.png",
         "name": "Cello",
         "tags": [
             "gm",
             "strings",
             "cello"
+        ]
+    },
+    {
+        "path": "choir-playing.webp",
+        "name": "Choir / Voice (playing)",
+        "tags": [
+            "aahs",
+            "active",
+            "animated",
+            "choir",
+            "gm",
+            "oohs",
+            "voice"
         ]
     },
     {
@@ -150,6 +352,17 @@
         ]
     },
     {
+        "path": "clarinet-playing.webp",
+        "name": "Clarinet (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "clarinet",
+            "gm",
+            "reed"
+        ]
+    },
+    {
         "path": "clarinet.png",
         "name": "Clarinet",
         "tags": [
@@ -159,12 +372,36 @@
         ]
     },
     {
+        "path": "clavinet-playing.webp",
+        "name": "Clavinet (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "clavinet",
+            "funk",
+            "gm"
+        ]
+    },
+    {
         "path": "clavinet.png",
         "name": "Clavinet",
         "tags": [
             "gm",
             "clavinet",
             "funk"
+        ]
+    },
+    {
+        "path": "double-bass-playing.webp",
+        "name": "Acoustic / Double Bass (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "contrabass",
+            "double bass",
+            "gm",
+            "upright"
         ]
     },
     {
@@ -179,12 +416,36 @@
         ]
     },
     {
+        "path": "drum-kit-playing.webp",
+        "name": "Drum Kit (playing)",
+        "tags": [
+            "acoustic kit",
+            "active",
+            "animated",
+            "drums",
+            "percussion"
+        ]
+    },
+    {
         "path": "drum-kit.png",
         "name": "Drum Kit",
         "tags": [
             "drums",
             "percussion",
             "acoustic kit"
+        ]
+    },
+    {
+        "path": "drum-machine-playing.webp",
+        "name": "Drum Machine (playing)",
+        "tags": [
+            "808",
+            "909",
+            "active",
+            "animated",
+            "drums",
+            "electronic",
+            "rhythm"
         ]
     },
     {
@@ -199,6 +460,18 @@
         ]
     },
     {
+        "path": "dulcimer-playing.webp",
+        "name": "Dulcimer (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "dulcimer",
+            "gm",
+            "hammered",
+            "santur"
+        ]
+    },
+    {
         "path": "dulcimer.png",
         "name": "Dulcimer",
         "tags": [
@@ -206,6 +479,18 @@
             "dulcimer",
             "santur",
             "hammered"
+        ]
+    },
+    {
+        "path": "english-horn-playing.webp",
+        "name": "English Horn (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "cor anglais",
+            "english horn",
+            "gm",
+            "reed"
         ]
     },
     {
@@ -219,6 +504,18 @@
         ]
     },
     {
+        "path": "ep-fm-playing.webp",
+        "name": "FM / DX E.Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "dx7",
+            "electric piano",
+            "fm",
+            "gm"
+        ]
+    },
+    {
         "path": "ep-fm.png",
         "name": "FM / DX E.Piano",
         "tags": [
@@ -226,6 +523,17 @@
             "electric piano",
             "fm",
             "dx7"
+        ]
+    },
+    {
+        "path": "ep-rhodes-playing.webp",
+        "name": "Rhodes E.Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "electric piano",
+            "gm",
+            "rhodes"
         ]
     },
     {
@@ -238,11 +546,32 @@
         ]
     },
     {
+        "path": "ep-wurlitzer-playing.webp",
+        "name": "Wurlitzer E.Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "electric piano",
+            "wurlitzer"
+        ]
+    },
+    {
         "path": "ep-wurlitzer.png",
         "name": "Wurlitzer E.Piano",
         "tags": [
             "electric piano",
             "wurlitzer"
+        ]
+    },
+    {
+        "path": "flute-playing.webp",
+        "name": "Flute (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "flute",
+            "gm",
+            "pipe"
         ]
     },
     {
@@ -255,12 +584,35 @@
         ]
     },
     {
+        "path": "french-horn-playing.webp",
+        "name": "French Horn (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "french horn",
+            "gm"
+        ]
+    },
+    {
         "path": "french-horn.png",
         "name": "French Horn",
         "tags": [
             "gm",
             "brass",
             "french horn"
+        ]
+    },
+    {
+        "path": "glockenspiel-playing.webp",
+        "name": "Glockenspiel (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bells",
+            "glockenspiel",
+            "gm",
+            "mallet"
         ]
     },
     {
@@ -274,6 +626,19 @@
         ]
     },
     {
+        "path": "guitar-acoustic-playing.webp",
+        "name": "Acoustic Guitar (playing)",
+        "tags": [
+            "acoustic",
+            "active",
+            "animated",
+            "gm",
+            "guitar",
+            "nylon",
+            "steel"
+        ]
+    },
+    {
         "path": "guitar-acoustic.png",
         "name": "Acoustic Guitar",
         "tags": [
@@ -282,6 +647,20 @@
             "acoustic",
             "nylon",
             "steel"
+        ]
+    },
+    {
+        "path": "guitar-electric-playing.webp",
+        "name": "Electric Guitar (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "clean",
+            "distortion",
+            "electric",
+            "gm",
+            "guitar",
+            "jazz"
         ]
     },
     {
@@ -297,12 +676,35 @@
         ]
     },
     {
+        "path": "gunshot-playing.webp",
+        "name": "Gunshot (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "gunshot",
+            "sfx"
+        ]
+    },
+    {
         "path": "gunshot.png",
         "name": "Gunshot",
         "tags": [
             "gm",
             "sfx",
             "gunshot"
+        ]
+    },
+    {
+        "path": "harmonica-playing.webp",
+        "name": "Harmonica (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "blues",
+            "gm",
+            "harmonica",
+            "reed"
         ]
     },
     {
@@ -316,12 +718,34 @@
         ]
     },
     {
+        "path": "harp-playing.webp",
+        "name": "Orchestral Harp (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "harp",
+            "strings"
+        ]
+    },
+    {
         "path": "harp.png",
         "name": "Orchestral Harp",
         "tags": [
             "gm",
             "strings",
             "harp"
+        ]
+    },
+    {
+        "path": "harpsichord-playing.webp",
+        "name": "Harpsichord (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "baroque",
+            "gm",
+            "harpsichord"
         ]
     },
     {
@@ -334,12 +758,35 @@
         ]
     },
     {
+        "path": "helicopter-playing.webp",
+        "name": "Helicopter (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "helicopter",
+            "sfx"
+        ]
+    },
+    {
         "path": "helicopter.png",
         "name": "Helicopter",
         "tags": [
             "gm",
             "sfx",
             "helicopter"
+        ]
+    },
+    {
+        "path": "kalimba-playing.webp",
+        "name": "Kalimba (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ethnic",
+            "gm",
+            "kalimba",
+            "thumb piano"
         ]
     },
     {
@@ -353,6 +800,18 @@
         ]
     },
     {
+        "path": "koto-playing.webp",
+        "name": "Koto (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ethnic",
+            "gm",
+            "koto",
+            "world"
+        ]
+    },
+    {
         "path": "koto.png",
         "name": "Koto",
         "tags": [
@@ -363,6 +822,406 @@
         ]
     },
     {
+        "path": "layer_epiano-strings-playing.webp",
+        "name": "E.Piano + Strings (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "electric piano",
+            "layer",
+            "rhodes",
+            "strings"
+        ]
+    },
+    {
+        "path": "layer_epiano-strings.png",
+        "name": "E.Piano + Strings",
+        "tags": [
+            "combo",
+            "dual",
+            "electric piano",
+            "layer",
+            "rhodes",
+            "strings"
+        ]
+    },
+    {
+        "path": "layer_harpsi-strings-playing.webp",
+        "name": "Harpsichord + Strings (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "baroque",
+            "combo",
+            "dual",
+            "harpsichord",
+            "layer",
+            "strings"
+        ]
+    },
+    {
+        "path": "layer_harpsi-strings.png",
+        "name": "Harpsichord + Strings",
+        "tags": [
+            "baroque",
+            "combo",
+            "dual",
+            "harpsichord",
+            "layer",
+            "strings"
+        ]
+    },
+    {
+        "path": "layer_lead-pad-playing.webp",
+        "name": "Synth Lead + Pad (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "pad",
+            "synth"
+        ]
+    },
+    {
+        "path": "layer_lead-pad.png",
+        "name": "Synth Lead + Pad",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "pad",
+            "synth"
+        ]
+    },
+    {
+        "path": "layer_organ-strings-playing.webp",
+        "name": "Organ + Strings (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "organ",
+            "strings"
+        ]
+    },
+    {
+        "path": "layer_organ-strings.png",
+        "name": "Organ + Strings",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "organ",
+            "strings"
+        ]
+    },
+    {
+        "path": "layer_piano-choir-playing.webp",
+        "name": "Piano + Choir (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "choir",
+            "combo",
+            "dual",
+            "layer",
+            "piano",
+            "voice"
+        ]
+    },
+    {
+        "path": "layer_piano-choir.png",
+        "name": "Piano + Choir",
+        "tags": [
+            "choir",
+            "combo",
+            "dual",
+            "layer",
+            "piano",
+            "voice"
+        ]
+    },
+    {
+        "path": "layer_piano-epiano-playing.webp",
+        "name": "Piano + E.Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "electric piano",
+            "layer",
+            "piano",
+            "rhodes"
+        ]
+    },
+    {
+        "path": "layer_piano-epiano.png",
+        "name": "Piano + E.Piano",
+        "tags": [
+            "combo",
+            "dual",
+            "electric piano",
+            "layer",
+            "piano",
+            "rhodes"
+        ]
+    },
+    {
+        "path": "layer_piano-harp-playing.webp",
+        "name": "Piano + Harp (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "harp",
+            "layer",
+            "piano"
+        ]
+    },
+    {
+        "path": "layer_piano-harp.png",
+        "name": "Piano + Harp",
+        "tags": [
+            "combo",
+            "dual",
+            "harp",
+            "layer",
+            "piano"
+        ]
+    },
+    {
+        "path": "layer_piano-pad-playing.webp",
+        "name": "Piano + Synth Pad (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "piano",
+            "synth"
+        ]
+    },
+    {
+        "path": "layer_piano-pad.png",
+        "name": "Piano + Synth Pad",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "piano",
+            "synth"
+        ]
+    },
+    {
+        "path": "layer_piano-strings-playing.webp",
+        "name": "Piano + Strings (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "piano",
+            "strings"
+        ]
+    },
+    {
+        "path": "layer_piano-strings.png",
+        "name": "Piano + Strings",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "piano",
+            "strings"
+        ]
+    },
+    {
+        "path": "layer_piano-vibes-playing.webp",
+        "name": "Piano + Vibraphone (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "piano",
+            "vibes",
+            "vibraphone"
+        ]
+    },
+    {
+        "path": "layer_piano-vibes.png",
+        "name": "Piano + Vibraphone",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "piano",
+            "vibes",
+            "vibraphone"
+        ]
+    },
+    {
+        "path": "layer_saw-square-playing.webp",
+        "name": "Saw + Square Lead (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "saw",
+            "square",
+            "synth"
+        ]
+    },
+    {
+        "path": "layer_saw-square.png",
+        "name": "Saw + Square Lead",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "saw",
+            "square",
+            "synth"
+        ]
+    },
+    {
+        "path": "layer_strings-brass-playing.webp",
+        "name": "Strings + Brass (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "combo",
+            "dual",
+            "layer",
+            "orchestra",
+            "strings"
+        ]
+    },
+    {
+        "path": "layer_strings-brass.png",
+        "name": "Strings + Brass",
+        "tags": [
+            "brass",
+            "combo",
+            "dual",
+            "layer",
+            "orchestra",
+            "strings"
+        ]
+    },
+    {
+        "path": "layer_strings-choir-playing.webp",
+        "name": "Strings + Choir (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "choir",
+            "combo",
+            "dual",
+            "layer",
+            "strings",
+            "voice"
+        ]
+    },
+    {
+        "path": "layer_strings-choir.png",
+        "name": "Strings + Choir",
+        "tags": [
+            "choir",
+            "combo",
+            "dual",
+            "layer",
+            "strings",
+            "voice"
+        ]
+    },
+    {
+        "path": "layer_strings-pad-playing.webp",
+        "name": "Strings + Synth Pad (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "strings",
+            "synth"
+        ]
+    },
+    {
+        "path": "layer_strings-pad.png",
+        "name": "Strings + Synth Pad",
+        "tags": [
+            "combo",
+            "dual",
+            "layer",
+            "pad",
+            "strings",
+            "synth"
+        ]
+    },
+    {
+        "path": "layer_synthbrass-lead-playing.webp",
+        "name": "Synth Brass + Lead (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "synth"
+        ]
+    },
+    {
+        "path": "layer_synthbrass-lead.png",
+        "name": "Synth Brass + Lead",
+        "tags": [
+            "brass",
+            "combo",
+            "dual",
+            "layer",
+            "lead",
+            "synth"
+        ]
+    },
+    {
+        "path": "marimba-playing.webp",
+        "name": "Marimba (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "mallet",
+            "marimba",
+            "wood"
+        ]
+    },
+    {
         "path": "marimba.png",
         "name": "Marimba",
         "tags": [
@@ -370,6 +1229,19 @@
             "marimba",
             "mallet",
             "wood"
+        ]
+    },
+    {
+        "path": "mellotron-playing.webp",
+        "name": "Mellotron (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "choir",
+            "flutes",
+            "mellotron",
+            "strings",
+            "tape"
         ]
     },
     {
@@ -384,6 +1256,18 @@
         ]
     },
     {
+        "path": "melodic-tom-playing.webp",
+        "name": "Melodic Tom (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "drums",
+            "gm",
+            "percussive",
+            "tom"
+        ]
+    },
+    {
         "path": "melodic-tom.png",
         "name": "Melodic Tom",
         "tags": [
@@ -391,6 +1275,17 @@
             "percussive",
             "tom",
             "drums"
+        ]
+    },
+    {
+        "path": "music-box-playing.webp",
+        "name": "Music Box (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "chromatic",
+            "gm",
+            "music box"
         ]
     },
     {
@@ -403,12 +1298,34 @@
         ]
     },
     {
+        "path": "oboe-playing.webp",
+        "name": "Oboe (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "oboe",
+            "reed"
+        ]
+    },
+    {
         "path": "oboe.png",
         "name": "Oboe",
         "tags": [
             "gm",
             "reed",
             "oboe"
+        ]
+    },
+    {
+        "path": "ocarina-playing.webp",
+        "name": "Ocarina (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "ocarina",
+            "pipe"
         ]
     },
     {
@@ -421,12 +1338,35 @@
         ]
     },
     {
+        "path": "orchestra-hit-playing.webp",
+        "name": "Orchestra Hit (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "orchestra hit",
+            "stab"
+        ]
+    },
+    {
         "path": "orchestra-hit.png",
         "name": "Orchestra Hit",
         "tags": [
             "gm",
             "orchestra hit",
             "stab"
+        ]
+    },
+    {
+        "path": "organ-combo-playing.webp",
+        "name": "Combo / Rock Organ (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "organ",
+            "rock",
+            "vox"
         ]
     },
     {
@@ -440,6 +1380,18 @@
         ]
     },
     {
+        "path": "organ-pipe-playing.webp",
+        "name": "Church / Pipe Organ (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "church",
+            "gm",
+            "organ",
+            "pipe"
+        ]
+    },
+    {
         "path": "organ-pipe.png",
         "name": "Church / Pipe Organ",
         "tags": [
@@ -447,6 +1399,18 @@
             "organ",
             "pipe",
             "church"
+        ]
+    },
+    {
+        "path": "organ-tonewheel-playing.webp",
+        "name": "Drawbar Organ (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "drawbars",
+            "gm",
+            "hammond",
+            "organ"
         ]
     },
     {
@@ -460,12 +1424,35 @@
         ]
     },
     {
+        "path": "pan-flute-playing.webp",
+        "name": "Pan Flute (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "pan flute",
+            "pipe"
+        ]
+    },
+    {
         "path": "pan-flute.png",
         "name": "Pan Flute",
         "tags": [
             "gm",
             "pipe",
             "pan flute"
+        ]
+    },
+    {
+        "path": "piano-grand-playing.webp",
+        "name": "Grand Piano (playing)",
+        "tags": [
+            "acoustic",
+            "active",
+            "animated",
+            "gm",
+            "keys",
+            "piano"
         ]
     },
     {
@@ -479,6 +1466,18 @@
         ]
     },
     {
+        "path": "piano-upright-playing.webp",
+        "name": "Upright Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "honky-tonk",
+            "keys",
+            "piano"
+        ]
+    },
+    {
         "path": "piano-upright.png",
         "name": "Upright Piano",
         "tags": [
@@ -486,6 +1485,17 @@
             "piano",
             "keys",
             "honky-tonk"
+        ]
+    },
+    {
+        "path": "piccolo-playing.webp",
+        "name": "Piccolo (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "piccolo",
+            "pipe"
         ]
     },
     {
@@ -498,12 +1508,35 @@
         ]
     },
     {
+        "path": "recorder-playing.webp",
+        "name": "Recorder (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "pipe",
+            "recorder"
+        ]
+    },
+    {
         "path": "recorder.png",
         "name": "Recorder",
         "tags": [
             "gm",
             "pipe",
             "recorder"
+        ]
+    },
+    {
+        "path": "reverse-cymbal-playing.webp",
+        "name": "Reverse Cymbal (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "fx",
+            "gm",
+            "percussive",
+            "reverse cymbal"
         ]
     },
     {
@@ -517,6 +1550,18 @@
         ]
     },
     {
+        "path": "sampler-playing.webp",
+        "name": "Sampler / MPC (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "hip-hop",
+            "mpc",
+            "pads",
+            "sampler"
+        ]
+    },
+    {
         "path": "sampler.png",
         "name": "Sampler / MPC",
         "tags": [
@@ -524,6 +1569,21 @@
             "mpc",
             "pads",
             "hip-hop"
+        ]
+    },
+    {
+        "path": "saxophone-playing.webp",
+        "name": "Saxophone (playing)",
+        "tags": [
+            "active",
+            "alto",
+            "animated",
+            "baritone",
+            "gm",
+            "reed",
+            "sax",
+            "soprano",
+            "tenor"
         ]
     },
     {
@@ -540,6 +1600,19 @@
         ]
     },
     {
+        "path": "seashore-playing.webp",
+        "name": "Seashore (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "nature",
+            "seashore",
+            "sfx",
+            "waves"
+        ]
+    },
+    {
         "path": "seashore.png",
         "name": "Seashore",
         "tags": [
@@ -551,12 +1624,36 @@
         ]
     },
     {
+        "path": "shakuhachi-playing.webp",
+        "name": "Shakuhachi (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "pipe",
+            "shakuhachi",
+            "world"
+        ]
+    },
+    {
         "path": "shakuhachi.png",
         "name": "Shakuhachi",
         "tags": [
             "gm",
             "pipe",
             "shakuhachi",
+            "world"
+        ]
+    },
+    {
+        "path": "shamisen-playing.webp",
+        "name": "Shamisen (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ethnic",
+            "gm",
+            "shamisen",
             "world"
         ]
     },
@@ -571,6 +1668,18 @@
         ]
     },
     {
+        "path": "sitar-playing.webp",
+        "name": "Sitar (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ethnic",
+            "gm",
+            "sitar",
+            "world"
+        ]
+    },
+    {
         "path": "sitar.png",
         "name": "Sitar",
         "tags": [
@@ -581,6 +1690,168 @@
         ]
     },
     {
+        "path": "split_acbass-piano-playing.webp",
+        "name": "Ac.Bass / Piano (playing)",
+        "tags": [
+            "acoustic bass",
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "jazz",
+            "piano",
+            "split"
+        ]
+    },
+    {
+        "path": "split_acbass-piano.png",
+        "name": "Ac.Bass / Piano",
+        "tags": [
+            "acoustic bass",
+            "bass",
+            "combo",
+            "jazz",
+            "piano",
+            "split"
+        ]
+    },
+    {
+        "path": "split_bass-epiano-playing.webp",
+        "name": "Bass / E.Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "electric bass",
+            "electric piano",
+            "rhodes",
+            "split"
+        ]
+    },
+    {
+        "path": "split_bass-epiano.png",
+        "name": "Bass / E.Piano",
+        "tags": [
+            "bass",
+            "combo",
+            "electric bass",
+            "electric piano",
+            "rhodes",
+            "split"
+        ]
+    },
+    {
+        "path": "split_bass-lead-playing.webp",
+        "name": "Bass / Lead (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "lead",
+            "split",
+            "synth"
+        ]
+    },
+    {
+        "path": "split_bass-lead.png",
+        "name": "Bass / Lead",
+        "tags": [
+            "bass",
+            "combo",
+            "lead",
+            "split",
+            "synth"
+        ]
+    },
+    {
+        "path": "split_bass-organ-playing.webp",
+        "name": "Bass / Organ (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "electric bass",
+            "organ",
+            "split"
+        ]
+    },
+    {
+        "path": "split_bass-organ.png",
+        "name": "Bass / Organ",
+        "tags": [
+            "bass",
+            "combo",
+            "electric bass",
+            "organ",
+            "split"
+        ]
+    },
+    {
+        "path": "split_synthbass-lead-playing.webp",
+        "name": "Synth Bass / Lead (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "edm",
+            "lead",
+            "split",
+            "synth"
+        ]
+    },
+    {
+        "path": "split_synthbass-lead.png",
+        "name": "Synth Bass / Lead",
+        "tags": [
+            "bass",
+            "combo",
+            "edm",
+            "lead",
+            "split",
+            "synth"
+        ]
+    },
+    {
+        "path": "split_synthbass-piano-playing.webp",
+        "name": "Synth Bass / Piano (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "combo",
+            "piano",
+            "split",
+            "synth"
+        ]
+    },
+    {
+        "path": "split_synthbass-piano.png",
+        "name": "Synth Bass / Piano",
+        "tags": [
+            "bass",
+            "combo",
+            "piano",
+            "split",
+            "synth"
+        ]
+    },
+    {
+        "path": "steel-drums-playing.webp",
+        "name": "Steel Drums (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "percussive",
+            "steel drums",
+            "steelpan"
+        ]
+    },
+    {
         "path": "steel-drums.png",
         "name": "Steel Drums",
         "tags": [
@@ -588,6 +1859,20 @@
             "percussive",
             "steel drums",
             "steelpan"
+        ]
+    },
+    {
+        "path": "strings-section-playing.webp",
+        "name": "String Ensemble (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ensemble",
+            "gm",
+            "pizzicato",
+            "section",
+            "strings",
+            "tremolo"
         ]
     },
     {
@@ -603,6 +1888,18 @@
         ]
     },
     {
+        "path": "synth-bass-playing.webp",
+        "name": "Synth Bass (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bass",
+            "gm",
+            "sub",
+            "synth"
+        ]
+    },
+    {
         "path": "synth-bass.png",
         "name": "Synth Bass",
         "tags": [
@@ -610,6 +1907,17 @@
             "synth",
             "bass",
             "sub"
+        ]
+    },
+    {
+        "path": "synth-brass-playing.webp",
+        "name": "Synth Brass (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "gm",
+            "synth"
         ]
     },
     {
@@ -622,6 +1930,18 @@
         ]
     },
     {
+        "path": "synth-drum-playing.webp",
+        "name": "Synth Drum (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "electronic",
+            "gm",
+            "percussive",
+            "synth drum"
+        ]
+    },
+    {
         "path": "synth-drum.png",
         "name": "Synth Drum",
         "tags": [
@@ -629,6 +1949,20 @@
             "percussive",
             "synth drum",
             "electronic"
+        ]
+    },
+    {
+        "path": "synth-fx-playing.webp",
+        "name": "Synth FX (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "atmosphere",
+            "crystal",
+            "fx",
+            "gm",
+            "sci-fi",
+            "synth"
         ]
     },
     {
@@ -644,6 +1978,41 @@
         ]
     },
     {
+        "path": "synth-glide-playing.webp",
+        "name": "Portamento Lead Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "glide",
+            "lead",
+            "portamento",
+            "synth"
+        ]
+    },
+    {
+        "path": "synth-glide.png",
+        "name": "Portamento Lead Synth",
+        "tags": [
+            "synth",
+            "lead",
+            "portamento",
+            "glide"
+        ]
+    },
+    {
+        "path": "synth-lead-playing.webp",
+        "name": "Synth Lead (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "lead",
+            "saw",
+            "square",
+            "synth"
+        ]
+    },
+    {
         "path": "synth-lead.png",
         "name": "Synth Lead",
         "tags": [
@@ -652,6 +2021,19 @@
             "lead",
             "square",
             "saw"
+        ]
+    },
+    {
+        "path": "synth-pad-playing.webp",
+        "name": "Synth Pad (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "pad",
+            "sweep",
+            "synth",
+            "warm"
         ]
     },
     {
@@ -666,6 +2048,129 @@
         ]
     },
     {
+        "path": "synth-resonator-playing.webp",
+        "name": "Resonator Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "filter",
+            "groove",
+            "resonant",
+            "synth"
+        ]
+    },
+    {
+        "path": "synth-resonator.png",
+        "name": "Resonator Synth",
+        "tags": [
+            "synth",
+            "resonant",
+            "filter",
+            "groove"
+        ]
+    },
+    {
+        "path": "synth-saw-playing.webp",
+        "name": "Saw Lead Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "lead",
+            "mono",
+            "sawtooth",
+            "synth"
+        ]
+    },
+    {
+        "path": "synth-saw.png",
+        "name": "Saw Lead Synth",
+        "tags": [
+            "synth",
+            "lead",
+            "sawtooth",
+            "mono"
+        ]
+    },
+    {
+        "path": "synth-square-playing.webp",
+        "name": "Square Lead Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "lead",
+            "square",
+            "synth",
+            "vintage"
+        ]
+    },
+    {
+        "path": "synth-square.png",
+        "name": "Square Lead Synth",
+        "tags": [
+            "synth",
+            "lead",
+            "square",
+            "vintage"
+        ]
+    },
+    {
+        "path": "synth-sweep-playing.webp",
+        "name": "Sweep Poly Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "filter",
+            "poly",
+            "sweep",
+            "synth"
+        ]
+    },
+    {
+        "path": "synth-sweep.png",
+        "name": "Sweep Poly Synth",
+        "tags": [
+            "synth",
+            "poly",
+            "sweep",
+            "filter"
+        ]
+    },
+    {
+        "path": "synth-talkbox-playing.webp",
+        "name": "Talkbox Synth (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "lead",
+            "synth",
+            "talkbox",
+            "voice"
+        ]
+    },
+    {
+        "path": "synth-talkbox.png",
+        "name": "Talkbox Synth",
+        "tags": [
+            "synth",
+            "talkbox",
+            "lead",
+            "voice"
+        ]
+    },
+    {
+        "path": "synthesizer-playing.webp",
+        "name": "Synthesizer (playing)",
+        "tags": [
+            "active",
+            "analog",
+            "animated",
+            "minimoog",
+            "poly",
+            "prophet",
+            "synth"
+        ]
+    },
+    {
         "path": "synthesizer.png",
         "name": "Synthesizer",
         "tags": [
@@ -674,6 +2179,18 @@
             "minimoog",
             "prophet",
             "poly"
+        ]
+    },
+    {
+        "path": "taiko-playing.webp",
+        "name": "Taiko Drum (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "drum",
+            "gm",
+            "percussive",
+            "taiko"
         ]
     },
     {
@@ -687,6 +2204,18 @@
         ]
     },
     {
+        "path": "telephone-playing.webp",
+        "name": "Telephone (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "ring",
+            "sfx",
+            "telephone"
+        ]
+    },
+    {
         "path": "telephone.png",
         "name": "Telephone",
         "tags": [
@@ -697,12 +2226,35 @@
         ]
     },
     {
+        "path": "timpani-playing.webp",
+        "name": "Timpani (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "orchestra",
+            "timpani"
+        ]
+    },
+    {
         "path": "timpani.png",
         "name": "Timpani",
         "tags": [
             "gm",
             "timpani",
             "orchestra"
+        ]
+    },
+    {
+        "path": "tinkle-bell-playing.webp",
+        "name": "Tinkle Bell (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "bell",
+            "gm",
+            "percussive",
+            "tinkle bell"
         ]
     },
     {
@@ -716,12 +2268,35 @@
         ]
     },
     {
+        "path": "trombone-playing.webp",
+        "name": "Trombone (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "gm",
+            "trombone"
+        ]
+    },
+    {
         "path": "trombone.png",
         "name": "Trombone",
         "tags": [
             "gm",
             "brass",
             "trombone"
+        ]
+    },
+    {
+        "path": "trumpet-playing.webp",
+        "name": "Trumpet (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "gm",
+            "muted",
+            "trumpet"
         ]
     },
     {
@@ -735,6 +2310,18 @@
         ]
     },
     {
+        "path": "tuba-playing.webp",
+        "name": "Tuba (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "brass",
+            "gm",
+            "low",
+            "tuba"
+        ]
+    },
+    {
         "path": "tuba.png",
         "name": "Tuba",
         "tags": [
@@ -742,6 +2329,17 @@
             "brass",
             "tuba",
             "low"
+        ]
+    },
+    {
+        "path": "tubular-bells-playing.webp",
+        "name": "Tubular Bells (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "chimes",
+            "gm",
+            "tubular bells"
         ]
     },
     {
@@ -754,6 +2352,39 @@
         ]
     },
     {
+        "path": "vibanet-playing.webp",
+        "name": "Vibanet (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "clavinet",
+            "electric piano",
+            "keys",
+            "vibraphone"
+        ]
+    },
+    {
+        "path": "vibanet.png",
+        "name": "Vibanet",
+        "tags": [
+            "electric piano",
+            "clavinet",
+            "vibraphone",
+            "keys"
+        ]
+    },
+    {
+        "path": "vibraphone-playing.webp",
+        "name": "Vibraphone (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "mallet",
+            "vibraphone"
+        ]
+    },
+    {
         "path": "vibraphone.png",
         "name": "Vibraphone",
         "tags": [
@@ -763,12 +2394,35 @@
         ]
     },
     {
+        "path": "viola-playing.webp",
+        "name": "Viola (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "strings",
+            "viola"
+        ]
+    },
+    {
         "path": "viola.png",
         "name": "Viola",
         "tags": [
             "gm",
             "strings",
             "viola"
+        ]
+    },
+    {
+        "path": "violin-playing.webp",
+        "name": "Violin / Fiddle (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "fiddle",
+            "gm",
+            "strings",
+            "violin"
         ]
     },
     {
@@ -782,6 +2436,18 @@
         ]
     },
     {
+        "path": "vocoder-playing.webp",
+        "name": "Vocoder (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "microkorg",
+            "robot voice",
+            "vocal",
+            "vocoder"
+        ]
+    },
+    {
         "path": "vocoder.png",
         "name": "Vocoder",
         "tags": [
@@ -789,6 +2455,18 @@
             "vocal",
             "microkorg",
             "robot voice"
+        ]
+    },
+    {
+        "path": "whistle-playing.webp",
+        "name": "Whistle (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "pipe",
+            "tin whistle",
+            "whistle"
         ]
     },
     {
@@ -802,12 +2480,55 @@
         ]
     },
     {
+        "path": "woodblock-playing.webp",
+        "name": "Woodblock (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "percussive",
+            "woodblock"
+        ]
+    },
+    {
         "path": "woodblock.png",
         "name": "Woodblock",
         "tags": [
             "gm",
             "percussive",
             "woodblock"
+        ]
+    },
+    {
+        "path": "woodwinds-section-playing.webp",
+        "name": "Woodwinds Section (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "ensemble",
+            "section",
+            "woodwind"
+        ]
+    },
+    {
+        "path": "woodwinds-section.png",
+        "name": "Woodwinds Section",
+        "tags": [
+            "woodwind",
+            "section",
+            "ensemble"
+        ]
+    },
+    {
+        "path": "xylophone-playing.webp",
+        "name": "Xylophone (playing)",
+        "tags": [
+            "active",
+            "animated",
+            "gm",
+            "mallet",
+            "wood",
+            "xylophone"
         ]
     },
     {

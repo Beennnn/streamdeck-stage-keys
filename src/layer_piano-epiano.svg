@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="144" height="144" viewBox="0 0 144 144"><rect width="144" height="144" rx="22" fill="#13151b"/><path d="M14,20 L128,128" stroke="#3b3b46" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/><g transform="translate(98,46) scale(0.5) translate(-72,-72)"><rect x="18" y="50" width="108" height="12" rx="3" fill="#b23b3b"/>
+  <rect x="18" y="60" width="108" height="30" rx="3" fill="#2a2a2e"/>
+  <rect x="24" y="72" width="96" height="16" rx="2" fill="#ece8df"/>
+  <g fill="#1a1a1e"><rect x="31" y="72" width="4" height="10"/><rect x="40" y="72" width="4" height="10"/><rect x="54" y="72" width="4" height="10"/><rect x="63" y="72" width="4" height="10"/><rect x="72" y="72" width="4" height="10"/><rect x="86" y="72" width="4" height="10"/><rect x="95" y="72" width="4" height="10"/><rect x="109" y="72" width="4" height="10"/></g>
+  <rect x="20" y="46" width="30" height="6" rx="2" fill="#e0c04a"/>
+  <line x1="30" y1="90" x2="24" y2="118" stroke="#b9b9c0" stroke-width="4" stroke-linecap="round"/>
+  <line x1="114" y1="90" x2="120" y2="118" stroke="#b9b9c0" stroke-width="4" stroke-linecap="round"/></g><g transform="translate(48,98) scale(0.5) translate(-72,-74)"><rect x="26" y="24" width="92" height="14" rx="4" fill="#7a4a2a"/>
+  <rect x="30" y="34" width="84" height="76" rx="4" fill="#5a3418"/>
+  <rect x="30" y="34" width="84" height="76" rx="4" fill="none"/>
+  <rect x="38" y="42" width="30" height="28" rx="2" fill="#3e2411"/>
+  <rect x="76" y="42" width="30" height="28" rx="2" fill="#3e2411"/>
+  <rect x="30" y="88" width="84" height="22" rx="2" fill="#f6f6f1"/>
+  <g fill="#17130f"><rect x="38" y="88" width="4" height="13"/><rect x="47" y="88" width="4" height="13"/><rect x="61" y="88" width="4" height="13"/><rect x="70" y="88" width="4" height="13"/><rect x="79" y="88" width="4" height="13"/><rect x="93" y="88" width="4" height="13"/><rect x="102" y="88" width="4" height="13"/></g>
+  <rect x="34" y="110" width="76" height="8" rx="2" fill="#4a2a12"/>
+  <rect x="44" y="118" width="10" height="8" fill="#2e1a0c"/><rect x="90" y="118" width="10" height="8" fill="#2e1a0c"/></g></svg>
