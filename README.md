@@ -92,11 +92,15 @@ bin/gen_duo.py --matrix              # full live-rig set: Track 1 × Track 2 (12
 bin/gen_duo.py --presets             # classic consumer-piano Dual/Split combos
 ```
 
-`--presets` builds the Dual/Layer and Split combinations mainstream digital
-pianos (Yamaha P/Clavinova, Roland FP, Casio Privia, Korg) ship as factory
-sounds — Piano + Strings, Piano + Choir, E.Piano + Strings, Harpsichord +
-Strings, and left-hand-bass splits (Ac.Bass / Piano, Bass / Organ…). Edit the
-`PRESETS` table to add your own.
+`--presets` builds the 21 Dual/Layer and Split combinations mainstream consumer
+keyboards ship as factory performances — pianos **and** synths (Yamaha
+P/Clavinova/PSR/MODX, Roland FP/Juno/FA, Casio Privia/CT-X, Korg). Piano-side:
+Piano + Strings, Piano + Choir, E.Piano + Strings, Harpsichord + Strings,
+Strings + Brass, and left-hand-bass splits (Ac.Bass / Piano, Bass / Organ…).
+Synth-side (from those manuals' factory combis): Lead + Pad, detuned Saw +
+Square dual lead, Synth-Brass + Lead, Strings + Pad, and split-voice basses
+under a lead (Synth-Bass / Lead — the EDM staple, Bass / Lead). Per the manuals
+the split voice is a bass in the left hand. Edit the `PRESETS` table to add more.
 
 `--matrix` builds every pairing of a two-row sound-select rig — Track 1
 keyboards (bottom) × Track 2 leads (top) — the layout a live keyboardist uses to

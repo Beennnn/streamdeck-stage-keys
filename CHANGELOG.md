@@ -19,10 +19,13 @@ All notable changes to **Music Instruments for Stage Keys**. Format based on
 - **`bin/gen_duo.py --matrix`** — builds the full two-row live-rig set
   (Track 1 keyboards × Track 2 leads = 126 split buttons). `TRACK1`/`TRACK2`
   tables in the script map a deck to kit sources.
-- **`bin/gen_duo.py --presets`** — 13 classic Dual/Layer & Split combos that
-  mainstream consumer digital pianos ship as factory sounds (Piano + Strings,
-  Piano + Choir, E.Piano + Strings, Harpsichord + Strings, left-hand-bass
-  splits…). `PRESETS` table in the script.
+- **`bin/gen_duo.py --presets`** — 21 Dual/Layer & Split combos that mainstream
+  consumer keyboards ship as factory performances, pianos **and synths**
+  (Yamaha PSR/MODX, Roland Juno/FA, Casio CT-X, Korg). Piano-side (Piano +
+  Strings/Choir/Pad, E.Piano + Strings, Harpsichord + Strings, Strings + Brass,
+  left-hand-bass splits) + synth-side (Lead + Pad, detuned Saw + Square, Synth-
+  Brass + Lead, Strings + Pad, Synth-Bass / Lead EDM split, Bass / Lead).
+  `PRESETS` table in the script.
 
 ## [1.1.0] — 2026-07-14
 ### Added

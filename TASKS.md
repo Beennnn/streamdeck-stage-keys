@@ -32,8 +32,17 @@ Dual/Split). Committed locally (3 commits), NOT pushed, NOT built.
 - ☐ Push GitHub `Beennnn/streamdeck-stage-keys` (3 local commits).
 - ☐ Submit via Maker Console once v1.0/v1.1 ordering is resolved (v1.1 is
   blocked on v1.0 review — decide whether 1.2 supersedes or stacks after 1.1).
-- 🤔 Decide: ship the split buttons (`duo/`) in the Marketplace pack too (e.g. a
-  "Layers & Splits" set from `--presets`), or keep `duo/` as personal-rig only?
+### Split decided (2026-07-16) — TWO Marketplace packs, not one
+Size is a non-issue (Elgato: no pack-size/count cap, only ≤1 MB/icon; our
+92+92 ≈ 3.2 MB is smaller than Elgato's own 244-icon packs). Split by USE:
+- ☐ **Pack A — Stage Keys** = the 92 single-instrument icons (static+animated).
+  Unchanged; its value is being a complete GM/XP set — do NOT split by family.
+- ☐ **Pack B — "Stage Keys · Layers & Splits"** = new companion mini-pack from
+  `bin/gen_duo.py --presets` (21 consumer piano+synth Dual/Split combos). New
+  sibling repo, own `manifest.json`/`icons.json`, built with the sdicons
+  toolkit. Needs: promote the 21 `duo/layer_*`+`split_*` PNGs into that pack's
+  `icons/`, author metadata, `bin/build.sh`, submit.
+- ☐ Keep the 126-combo live-rig matrix (`duo/*__*`) LOCAL only — never published.
 
 ## Build
 - `bin/build.sh` → static+animated pack · `bin/build-animated.py` → animated variants + showcase · `bin/maker-media.sh` → listing media incl. gallery-animated.mp4. All via the sdicons toolkit.

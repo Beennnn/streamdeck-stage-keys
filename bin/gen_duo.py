@@ -64,6 +64,9 @@ ANCHOR = {
     "harp":            (74, 74, 0.50),
     "double-bass":     (72, 74, 0.46),
     "bass-electric":   (72, 72, 0.48),
+    "synth-bass":      (72, 70, 0.48),
+    "synth-lead":      (72, 70, 0.48),
+    "synth-brass":     (72, 70, 0.48),
 }
 
 TARGET_BL = (48, 98)   # lower-left  quadrant centre (instrument A)
@@ -164,10 +167,21 @@ PRESETS = [
     ("piano-upright", "harp",            "layer_piano-harp"),
     ("organ-tonewheel", "strings-section", "layer_organ-strings"),
     ("strings-section", "choir",         "layer_strings-choir"),
+    ("strings-section", "brass-section", "layer_strings-brass"),   # orchestra
     # --- Split (left-hand bass) ---
     ("double-bass",   "piano-upright",   "split_acbass-piano"),    # jazz split
     ("bass-electric", "ep-rhodes",       "split_bass-epiano"),
     ("bass-electric", "organ-tonewheel", "split_bass-organ"),
+    # --- Consumer-synth Dual/Split (Roland Juno/FA, Yamaha PSR/MODX, Korg,
+    #     Casio CT-X) — the layer/split performances those manuals ship as
+    #     factory combis. Split voice = a bass in the left hand, per the manuals. ---
+    ("synth-saw",   "synth-pad",       "layer_lead-pad"),          # solo lead over a pad
+    ("synth-saw",   "synth-square",    "layer_saw-square"),        # detuned dual lead
+    ("synth-brass", "synth-saw",       "layer_synthbrass-lead"),   # fat brass lead
+    ("strings-section", "synth-pad",   "layer_strings-pad"),       # lush pad
+    ("synth-bass",  "synth-saw",       "split_synthbass-lead"),    # EDM/dance split
+    ("bass-electric", "synth-saw",     "split_bass-lead"),         # bass under a lead
+    ("synth-bass",  "piano-upright",   "split_synthbass-piano"),   # synth bass + piano
 ]
 
 
