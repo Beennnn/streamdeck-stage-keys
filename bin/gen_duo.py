@@ -57,6 +57,13 @@ ANCHOR = {
     "synth-glide":     (72, 70, 0.48),
     "synth-resonator": (72, 70, 0.48),
     "synth-sweep":     (72, 69, 0.48),
+    "choir":           (72, 80, 0.47),
+    "synth-pad":       (72, 70, 0.48),
+    "harpsichord":     (74, 76, 0.50),
+    "vibraphone":      (72, 82, 0.46),
+    "harp":            (74, 74, 0.50),
+    "double-bass":     (72, 74, 0.46),
+    "bass-electric":   (72, 72, 0.48),
 }
 
 TARGET_BL = (48, 98)   # lower-left  quadrant centre (instrument A)
@@ -141,9 +148,41 @@ def build_matrix():
     print(f"OK live-rig matrix: {n} split buttons ({len(TRACK1)}x{len(TRACK2)}) -> duo/")
 
 
+# Classic Dual/Layer & Split presets that mainstream consumer digital pianos
+# (Yamaha P/Clavinova, Roland FP, Casio Privia, Korg) ship as factory combos.
+# LAYER: a foundation keyboard (↙) under a colour voice (↗). SPLIT: a bass in the
+# left hand (↙) under the right-hand voice (↗). (source_bottom, source_top, name).
+PRESETS = [
+    # --- Dual / Layer ---
+    ("piano-upright", "strings-section", "layer_piano-strings"),   # the classic
+    ("piano-upright", "choir",           "layer_piano-choir"),
+    ("piano-upright", "synth-pad",       "layer_piano-pad"),
+    ("piano-upright", "ep-rhodes",       "layer_piano-epiano"),
+    ("ep-rhodes",     "strings-section", "layer_epiano-strings"),
+    ("harpsichord",   "strings-section", "layer_harpsi-strings"),
+    ("piano-upright", "vibraphone",      "layer_piano-vibes"),
+    ("piano-upright", "harp",            "layer_piano-harp"),
+    ("organ-tonewheel", "strings-section", "layer_organ-strings"),
+    ("strings-section", "choir",         "layer_strings-choir"),
+    # --- Split (left-hand bass) ---
+    ("double-bass",   "piano-upright",   "split_acbass-piano"),    # jazz split
+    ("bass-electric", "ep-rhodes",       "split_bass-epiano"),
+    ("bass-electric", "organ-tonewheel", "split_bass-organ"),
+]
+
+
+def build_presets():
+    for a, b, name in PRESETS:
+        build(a, b, name)
+    print(f"OK classic piano presets: {len(PRESETS)} split buttons -> duo/")
+
+
 def main(argv):
     if argv and argv[0] == "--matrix":
         build_matrix()
+        return
+    if argv and argv[0] == "--presets":
+        build_presets()
         return
     if len(argv) >= 2:
         a, b = argv[0], argv[1]

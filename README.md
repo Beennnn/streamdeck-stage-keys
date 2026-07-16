@@ -89,7 +89,14 @@ bin/gen_duo.py                       # build the default piano+brass set → duo
 bin/gen_duo.py piano-upright trumpet # one combo, any two src/ instruments
 bin/gen_duo.py ep-rhodes saxophone rhodes+sax   # A=↙  B=↗  [output name]
 bin/gen_duo.py --matrix              # full live-rig set: Track 1 × Track 2 (126)
+bin/gen_duo.py --presets             # classic consumer-piano Dual/Split combos
 ```
+
+`--presets` builds the Dual/Layer and Split combinations mainstream digital
+pianos (Yamaha P/Clavinova, Roland FP, Casio Privia, Korg) ship as factory
+sounds — Piano + Strings, Piano + Choir, E.Piano + Strings, Harpsichord +
+Strings, and left-hand-bass splits (Ac.Bass / Piano, Bass / Organ…). Edit the
+`PRESETS` table to add your own.
 
 `--matrix` builds every pairing of a two-row sound-select rig — Track 1
 keyboards (bottom) × Track 2 leads (top) — the layout a live keyboardist uses to
