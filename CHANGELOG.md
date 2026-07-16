@@ -4,6 +4,14 @@ All notable changes to **Music Instruments for Stage Keys**. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versions follow the pack's
 `manifest.json` Version.
 
+## [Unreleased]
+### Added
+- **Split-view combo buttons** — `bin/gen_duo.py` composes two of the pack's
+  full-colour instrument sources onto one 144 × 144 key, divided diagonally
+  (A lower-left ↙, B upper-right ↗) over a dark tile. For keys that layer or
+  morph two sounds (piano + brass, Rhodes + sax…). Any two `src/` instruments
+  compose; default set + per-instrument `ANCHOR` tuning. Output in `duo/`.
+
 ## [1.1.0] — 2026-07-14
 ### Added
 - **Animated "(playing)" variant for every instrument** — the *active state*.

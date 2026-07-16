@@ -75,6 +75,30 @@ synth waveforms, drum-machine LEDs, arpeggio steps, vibraphone mallets).
 Regenerate with `bin/build-animated.py` (uses `sdicons animate`); the animated
 Marketplace gallery comes from `bin/maker-media.sh` (`gallery-animated.mp4`).
 
+## Split-view combo buttons — two instruments on one key
+
+Some keys aren't a single voice — they **layer or morph two sounds** (piano +
+brass, Rhodes + sax, organ + strings). For those, `bin/gen_duo.py` builds a
+**split button**: one 144 × 144 key divided diagonally, instrument A lower-left
+↙ and instrument B upper-right ↗, over a dark tile with a thin separator. It
+**composes the pack's own full-colour sources** (no redraw), so a combo always
+matches the single icons it's made of and reads at a glance under stage lighting.
+
+```sh
+bin/gen_duo.py                       # build the default piano+brass set → duo/
+bin/gen_duo.py piano-upright trumpet # one combo, any two src/ instruments
+bin/gen_duo.py ep-rhodes saxophone rhodes+sax   # A=↙  B=↗  [output name]
+```
+
+Output lands in [`duo/`](duo/) as submit-ready 144 × 144 PNG. Any two of the 83
+instruments compose — pass their `src/` basenames (see [GM-MAP.md](GM-MAP.md)).
+Tip: pair the **upright** piano rather than the grand for the dark tile — its
+wood body stays visible where the near-black grand does not. Positioning per
+instrument is tuned in the script's `ANCHOR` table; add an entry to fine-tune a
+new one.
+
+![Split-view combo buttons](duo/piano+trumpet.png)
+
 ## What's inside (83 icons)
 
 Organised around the **General MIDI (GM 1) sound map** — the same 16 banks a

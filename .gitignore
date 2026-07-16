@@ -1,6 +1,8 @@
-# Built outputs ARE committed in this content repo (icons/, icons.json, dist/).
-# Only ignore incidental artifacts.
+# Built outputs ARE committed in this content repo (icons/, icons.json, dist/,
+# duo/*.png). Only ignore incidental artifacts.
 contact-sheet.png
+# intermediate SVGs for split buttons — regenerable from bin/gen_duo.py
+duo/svg/
 __pycache__/
 *.pyc
 .DS_Store
