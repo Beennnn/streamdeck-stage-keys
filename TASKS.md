@@ -9,8 +9,10 @@ manifest → 1.2.1, `dist/com.beennnn.stagekeys.streamDeckIconPack` rebuilt and
 `sdicons verify` is green (0 errors). Guarded going forward by `sdicons verify`.
 
 - ☐ Maker Console → Products → Music Instruments for Stage Keys → Versions →
-  the Rejected 1.2 → **re-upload `dist/com.beennnn.stagekeys.streamDeckIconPack`**
-  (now 1.2.1, carries the 113 posters) → resubmit for review.
+  the Rejected 1.2 → **upload everything from [`media-kit/`](media-kit/)** (package
+  1.2.1 with the 113 posters + thumbnail + gallery + video + 5 previews); the
+  [`media-kit/README.md`](media-kit/README.md) maps each file to its slot + carries
+  the listing copy → resubmit for review.
 - 🤔 Optional polish (not a rejection cause): 6 animations run below Elgato's
   suggested 10–20 fps (arpeggio ~2, drum-machine ~4, applause/gunshot/orchestra-
   hit/telephone ~7). Deliberate slow pulses — bump only if a reviewer flags it.
