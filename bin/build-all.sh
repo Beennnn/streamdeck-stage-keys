@@ -13,8 +13,8 @@ cd "$ROOT"
 
 if [ -n "$SDICONS" ]; then SD="$SDICONS"
 elif command -v sdicons >/dev/null 2>&1; then SD="sdicons"
-elif [ -x "$ROOT/../stream-deck-icons/bin/sdicons" ]; then SD="$ROOT/../stream-deck-icons/bin/sdicons"
-else echo "sdicons toolkit not found (clone github.com/Beennnn/stream-deck-icons alongside)"; exit 1; fi
+elif [ -x "$ROOT/../streamdeck-toolkit/bin/sdicons" ]; then SD="$ROOT/../streamdeck-toolkit/bin/sdicons"
+else echo "sdicons toolkit not found (clone github.com/Beennnn/streamdeck-toolkit alongside)"; exit 1; fi
 
 echo "→ render (static, src/*.svg → icons/*.png)"
 "$SD" render "$ROOT/src" "$ROOT"

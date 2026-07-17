@@ -24,7 +24,7 @@ import math
 import sys
 from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent / ".." / "stream-deck-icons"))
+sys.path.insert(0, str(Path(__file__).resolve().parent.parent / ".." / "streamdeck-toolkit"))
 from sdicons.animate import render_phases, save_animated          # noqa: E402
 from PIL import Image, ImageDraw                                  # noqa: E402
 

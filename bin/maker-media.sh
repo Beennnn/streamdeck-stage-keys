@@ -5,7 +5,7 @@
 # See the sdicons publishing docs for how to use them in the submission wizard.
 set -e
 ROOT="$(git rev-parse --show-toplevel)"
-SD="${SDICONS:-$ROOT/../stream-deck-icons/bin/sdicons}"
+SD="${SDICONS:-$ROOT/../streamdeck-toolkit/bin/sdicons}"
 command -v sdicons >/dev/null 2>&1 && SD="sdicons"
 "$SD" maker-media "$ROOT" --out-dir "$ROOT/maker-media" \
   --subtitle "92 full-colour instruments + split Layer/Split combos · GM/XP + modern synths" \
