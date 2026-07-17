@@ -159,7 +159,7 @@ per-icon names and searchable tags.
 ## Rebuild from source
 
 Icons are authored as parametric SVGs in [`src/`](src/) and rendered to
-144 × 144 PNG. Built with **[sdicons](https://github.com/Beennnn/stream-deck-icons)**
+144 × 144 PNG. Built with **[sdicons](https://github.com/Beennnn/streamdeck-toolkit)**
 (the generic Stream Deck icon-pack toolkit):
 
 ```sh
@@ -181,7 +181,7 @@ review. Elgato's [Icon Pack Man](https://iconpackman.elgato.com/) web tool is
 *optional* (and drops icon names/tags on import — `sdicons repair` fixes its
 exports). The Marketplace listing media (thumbnail, icon previews, gallery) is
 generated at the console's exact dimensions by `bin/maker-media.sh`
-(→ `maker-media/`, gitignored). Full process: [sdicons publishing docs](https://github.com/Beennnn/stream-deck-icons/blob/main/docs/publishing.md).
+(→ `maker-media/`, gitignored). Full process: [sdicons publishing docs](https://github.com/Beennnn/streamdeck-toolkit/blob/main/docs/publishing.md).
 
 ## License
 

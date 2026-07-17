@@ -17,7 +17,7 @@ All notable changes to **Music Instruments for Stage Keys**. Format based on
   (`sdicons posters`) and repackaged. The pack still lists 226 icons; the 113
   posters sit alongside as previews, exactly as iconpackman would emit them.
 - Guarded going forward by `sdicons verify` (fails a pack whose animations lack
-  posters) — see the stream-deck-icons toolkit.
+  posters) — see the streamdeck-toolkit repo.
 
 ## [1.2.0] — 2026-07-16
 ### Added
