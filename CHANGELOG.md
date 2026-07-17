@@ -4,6 +4,21 @@ All notable changes to **Music Instruments for Stage Keys**. Format based on
 [Keep a Changelog](https://keepachangelog.com/); versions follow the pack's
 `manifest.json` Version.
 
+## [1.2.1] — 2026-07-17
+### Fixed
+- **Animated-icon previews now load in the Stream Deck Icon Library.** Maker
+  Console rejected 1.2 (2026-07-17): *"the preview images of the GIFs aren't
+  loading, please ensure this icon pack is packaged correctly via iconpackman."*
+  Root cause (found by reverse-engineering iconpackman's export): the Library
+  renders each grid cell from a STATIC image and plays the GIF only on hover, so
+  every `icons/<base>-playing.gif` needs a companion `icons/<base>-playing.png`
+  poster (first frame), resolved by same-base-name and NOT listed in icons.json.
+  The pack shipped the GIFs without posters. Generated all 113 companion posters
+  (`sdicons posters`) and repackaged. The pack still lists 226 icons; the 113
+  posters sit alongside as previews, exactly as iconpackman would emit them.
+- Guarded going forward by `sdicons verify` (fails a pack whose animations lack
+  posters) — see the stream-deck-icons toolkit.
+
 ## [1.2.0] — 2026-07-16
 ### Added
 - **Split-view combo keys ship in the pack** — 21 Dual/Layer & Split combos as
