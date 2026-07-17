@@ -4,7 +4,7 @@ Everything to submit this icon pack on [Maker Console](https://maker.elgato.com)
 in one folder. **This folder is exactly what gets deposited.** Upload each file
 to the matching slot below; nothing else is needed.
 
-Version: **1.2.0** · id: `com.beennnn.stagekeys` · License: **CC-BY-4.0**
+Version: **1.2.1** · id: `com.beennnn.stagekeys` · License: **CC-BY-4.0**
 
 ---
 
@@ -63,7 +63,7 @@ github.com/Beennnn/streamdeck-toolkit
 
 - Sign in to **your** Maker Console account (+ Maker Agreement the first time).
 - This is a **revision of the rejected 1.2** — Products → Music Instruments for
-  Stage Keys → Versions → the rejected 1.2 → **re-upload the pack above** (now 1.2.0
+  Stage Keys → Versions → the rejected 1.2 → **re-upload the pack above** (now 1.2.1
   with the companion posters that fix the "GIF previews aren't loading" rejection).
 - Media tab: upload the thumbnail, gallery images + video, and 5 preview tiles.
 - Tick **AI-generated content: Yes**.
